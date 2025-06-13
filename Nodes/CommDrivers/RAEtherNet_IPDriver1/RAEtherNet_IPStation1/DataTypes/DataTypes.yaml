@@ -1,0 +1,29 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: 'AB:Embedded_DiscreteIO:O:0'
+  Id: g=3bf6c33b5a8dbffa52569901874091c9
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Embedded_DiscreteIO:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3bf6c33b5a8dbffa52569901874091c9",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Data",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Embedded_DiscreteIO:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
