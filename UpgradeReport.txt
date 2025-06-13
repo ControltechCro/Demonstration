@@ -1,0 +1,20 @@
+Project C:\Users\jbozic\Desktop\ZK\01Software\HMI\Demonstration\Demonstration.optix upgraded on 10-06-2025 09:09:14.623
+
+Upgraded modules:
+FTOptix.UI: from 12.4 to 18.1
+FTOptix.Core.Net: from 1.2 to 2.2
+FTOptix.UI.Net: from 12.4 to 18.1
+FTOptix.Core: from 3.0 to 4.2
+FTOptix.CoreBase: from 4.0 to 5.0
+FTOptix.HMIProject: from 6.1 to 7.1
+FTOptix.CoreBase.Net: from 1.1 to 2.0
+FTOptix.HMIProject.Net: from 4.4 to 4.9
+FTOptix.NativeUI: from 2.0 to 3.1
+FTOptix.CommunicationDriver: from 2.1 to 3.0
+FTOptix.CommunicationDriver.Net: from 2.1 to 3.0
+FTOptix.RAEtherNetIP: from 3.0 to 6.3
+FTOptix.RAEtherNetIP.Net: from 2.1 to 2.2
+
+No potential breaking changes detected
+
+

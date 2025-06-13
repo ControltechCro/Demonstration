@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module version="1">
+    <Name>DemonstrationUserDefinedModule</Name>
+    <Company></Company>
+    <Version>0.0.0</Version>
+    <MinUpgradableVersion>0.0.0</MinUpgradableVersion>
+    <Binding name="Net" />
+
+    <Namespaces/>
+
+    <Dependencies>
+        <Core version="0.0.0" />
+        <Binding version="0.0.0" />
+        <Module name="FTOptix.HMIProject.Net" version="0.0.0" />
+    </Dependencies>
+
+    <Nodes/>
+
+    <TypeMappings>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="01a7e8933afd7c95fe894b0859308138" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="b85b1b61f5ff9da80d213a5ab0862e37" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="a9d0ace2794bbbc7ed68171ce3ab6f55" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="9cf154c923572624320f16c16fa657a3" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="dfd608856ac9169edc3dd3847ce7f7bc" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="ce814fddddd607c776a3b9a6e0b90c27" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="41382c57dc616862c1af276ff6942abc" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="993b59924a12f899fc1ae269f7b02af8" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="77122192dcccfaa39d1e78d7bd27e222" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="d8a8bb0d6c0490587ebdf9c1eb42375e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="229683267164022ad24fa6f4e54b3f41" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="dbcc1657f2c288dd3f8171e79c2740c3" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="5d5290f20f0919d8690a51610f71dc06" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="f92dcaf50aadee1b3fca5fcc4d199c62" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="b1293153182ae653574d16bd8c6974cf" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="c81edd64e5a8170f94681e5ac28fc228" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="f0afd51b3f49febd40b32153974e81b8" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="f413075d472826bc2ec756a6b133f603" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="07b10933e4ee4d4cbf84518e190ea9be" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="93cbf19dd68a72c543a41f03c3c2b7a1" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="343e9a553a1648e3de95b91f6d877b43" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="bb7394fbc2c52a07303154aaae41cdfd" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="41f433c486aa6dfdb14c2c47570eea1a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="d17d8ab3d7f8047c35a02cbe0b7248c6" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="548a589cc1532b072d9d24316f7b6090" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="632709bc0ca708c922da2f68cb20eb09" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="68099af806a871bc69c6e167f51f9755" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="e348b14dbc7035688714c7ced8a72128" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="c05a81edcb91fa074772f19543ea1b38" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="dc2c41b238ed9ce9aa4f98d28d04b528" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="323ecbd80fe0dccc66307959b261f54a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="d0fba00ff93f064d6e1cb546eea27209" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="53b1bd1b17b4de66926108a7dfdf143e" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="fc0d46c3cf6fc6f7faace8fa13bde2b5" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="2eebfd3def044e747aa57952fc13c70d" />
+            </TargetType>
+        </TypeMapping>
+    </TypeMappings>
+</Module>
