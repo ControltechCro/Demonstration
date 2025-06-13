@@ -8,6 +8,8 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.OPCUAServer;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
 #endregion
 
 public class LoginFormOutputMessageLogic : BaseNetLogic

@@ -8,6 +8,8 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.UI;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

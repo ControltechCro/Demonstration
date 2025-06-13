@@ -10,6 +10,8 @@ using FTOptix.RAEtherNetIP;
 using FTOptix.CommunicationDriver;
 using FTOptix.S7TiaProfinet;
 using FTOptix.Alarm;
+using FTOptix.SQLiteStore;
+using FTOptix.Store;
 #endregion
 
 public class SystemToNetworkInterfacesEditModelWriterLogic : BaseNetLogic
