@@ -933,16 +933,11 @@ Children:
         DataType: Position
         ModellingRule: Optional
         Value: 7
-      - Name: ImagePath
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Nav_LogixCPU.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -952,7 +947,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -1394,6 +1389,123 @@ Children:
                 DataType: FontWeightEnum
                 ModellingRule: None
                 Value: 400
+      - Name: ImagePath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOn.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOn.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
     - Name: GoToDobot
       Type: Button
       Children:
@@ -1420,13 +1532,154 @@ Children:
       - Name: ImagePath
         Type: BaseDataVariableType
         DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Sts_CmdSrcHand.svg"
+        Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOn.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                ModellingRule: None
+                Value: "ns=18;%PROJECTDIR%/res/RobotOff.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -1436,7 +1689,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -1846,15 +2099,11 @@ Children:
         DataType: Position
         ModellingRule: Optional
         Value: 7
-      - Name: ImagePath
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=18;%PROJECTDIR%/res/Cmd_Edit.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -1864,7 +2113,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -2251,6 +2500,123 @@ Children:
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 Value: 400
+      - Name: ImagePath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOn.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
     - Name: GoToAlarms
       Type: Button
       Children:
@@ -2278,7 +2644,7 @@ Children:
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -2288,7 +2654,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -2678,7 +3044,120 @@ Children:
       - Name: ImagePath
         Type: BaseDataVariableType
         DataType: ResourceUri
-        Value: "ns=18;%PROJECTDIR%/res/Alarms/Icons/Alarms_Icons_InAlarm_Unacked_Unconfirmed.svg"
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOn.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
     - Name: GoToSettings
       Type: Button
       Children:
@@ -2716,7 +3195,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -3114,8 +3593,120 @@ Children:
       - Name: ImagePath
         Type: BaseDataVariableType
         DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Maintenance_ELEMENT_1.svg"
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOn.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
     - Name: GoToParameters
       Type: Button
       Children:
@@ -3123,7 +3714,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Parameters"}
+        Value: {"LocaleId":"en-US","Text":"Plant"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3139,16 +3730,11 @@ Children:
         DataType: Position
         ModellingRule: Optional
         Value: 7
-      - Name: ImagePath
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Properties_ELEMENT_1.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -3158,7 +3744,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -3545,6 +4131,123 @@ Children:
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 Value: 400
+      - Name: ImagePath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOn.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
     - Name: GoToDiagnostics
       Type: Button
       Children:
@@ -3568,16 +4271,11 @@ Children:
         DataType: Position
         ModellingRule: Optional
         Value: 7
-      - Name: ImagePath
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Nav_DiagnosticsView.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -3587,7 +4285,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -3974,6 +4672,123 @@ Children:
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 Value: 400
+      - Name: ImagePath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOn.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
     - Name: GoToReport
       Type: Button
       Children:
@@ -3997,16 +4812,11 @@ Children:
         DataType: Position
         ModellingRule: Optional
         Value: 7
-      - Name: ImagePath
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        ModellingRule: Optional
-        Value: "ns=18;%PROJECTDIR%/res/Log1_ELEMENT_1.svg"
       - Name: ImagePosition
         Type: BaseDataVariableType
         DataType: ButtonImagePosition
         ModellingRule: Optional
-        Value: 1
+        Value: 10
       - Name: ImageWidth
         Type: BaseDataVariableType
         DataType: Size
@@ -4016,7 +4826,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 25.0
+        Value: 30.0
       - Name: MouseClickEventHandler1
         Type: EventHandler
         Children:
@@ -4411,6 +5221,123 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+      - Name: ImagePath
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "/Objects/Demonstration/Model/ScreenNo"
+          - Name: ns=3;Pairs
+            Type: BaseObjectType
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair1
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair2
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair3
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair4
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 4
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair5
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 5
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair6
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 6
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair7
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 7
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOff.svg"
+            - Name: Pair8
+              Type: ValueMapPair
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                Value: 8
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "ns=18;%PROJECTDIR%/res/ReportOn.svg"
   - Name: PanelLoader1
     Type: PanelLoader
     Children:
@@ -4469,3 +5396,4 @@ Children:
 - File: Graphics/Graphics.yaml
 - File: Faceplates/Faceplates.yaml
 - File: Keyboards/Keyboards.yaml
+- File: Popup/Popup.yaml

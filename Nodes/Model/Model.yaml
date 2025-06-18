@@ -5,98 +5,16 @@ Children:
   Id: g=400266c40f5c7e8d33d48fcebef3fef1
   Type: BaseDataVariableType
   DataType: Int32
-- Name: List_DI
-  Id: g=93cfd92a5f457c792bdb93e7deb852c9
+- Name: DigitalInputList
   Type: BaseObjectType
   Children:
   - Name: Entry
-    Id: g=7a7851483cbe05d0f102862610207284
     Type: BaseDataVariableType
     DataType: String
     ValueRank: OneDimension
     ArrayDimensions: [7]
-    Value: ["Digital Input 1","Digital Input 2","Digital Input 3","Digital Input 4","Digital Input 5","Digital Input 6","Digital Input 7"]
-- Name: SelectedVentilIndex
+    Value: ["CompactLogix Live Bit","Siemens Live Bit","Digital Input 3","Digital Input 4","Digital Input 5","Digital Input 6","Digital Input 7"]
+- Name: DigitalInputIndex
+  Id: g=164ea2d05b775ddd96d10a7bd9f2c828
   Type: BaseDataVariableType
-  DataType: UInt16
-- Name: DisplayText
-  Type: BaseDataVariableType
-  DataType: String
-  Value: "0"
-- Name: SelectedVentilIndexChanged
-  Type: VariableChangedEventDispatcher
-  Children:
-  - Name: VariableNodePath
-    Type: BaseVariableType
-    DataType: NodePath
-    Value: "../SelectedVentilIndex"
-  - Name: VariableValueChangedEventHandler1
-    Type: EventHandler
-    Children:
-    - Name: ListenEventType
-      Type: PropertyType
-      DataType: NodeId
-      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableValueChangedEvent"
-    - Name: MethodsToCall
-      Type: BaseObjectType
-      Children:
-      - Name: MethodContainer1
-        Type: BaseObjectType
-        Children:
-        - Name: ns=3;ObjectPointer
-          Type: NodePointer
-          DataType: NodeId
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType"
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../NetLogic/UpdateDisplayText@NodeId"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
-        - Name: ns=3;Method
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "UpdateText"
-    - Name: EventArguments
-      Type: VariableValueChangedEvent
-      Children:
-      - Name: VariableNodeId
-        Type: BaseVariableType
-        DataType: NodeId
-      - Name: NewValue
-        Type: BaseVariableType
-        DataType: BaseDataType
-      - Name: OldValue
-        Type: BaseVariableType
-        DataType: BaseDataType
-      - Name: EventId
-        Type: PropertyType
-        DataType: ByteString
-      - Name: EventType
-        Type: PropertyType
-        DataType: NodeId
-      - Name: SourceNode
-        Type: PropertyType
-        DataType: NodeId
-      - Name: SourceName
-        Type: PropertyType
-        DataType: String
-      - Name: Time
-        Type: PropertyType
-        DataType: UtcTime
-      - Name: ReceiveTime
-        Type: PropertyType
-        DataType: UtcTime
-      - Name: Message
-        Type: PropertyType
-        DataType: LocalizedText
-      - Name: Severity
-        Type: PropertyType
-        DataType: UInt16
+  DataType: Int16

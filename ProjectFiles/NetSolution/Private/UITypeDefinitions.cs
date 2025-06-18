@@ -60,6 +60,11 @@ public class Dobot : FTOptix.UI.Panel
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "6db2e72c36ca71bcaf56bd214048b186")]
+public class DI_Config : FTOptix.UI.Dialog
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "dbcc1657f2c288dd3f8171e79c2740c3")]
 public class Settings : FTOptix.UI.Panel
 {
@@ -85,13 +90,13 @@ public class DigitalInput : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "f0afd51b3f49febd40b32153974e81b8")]
-public class RequestAssistanceDisabledPanel : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "c05a81edcb91fa074772f19543ea1b38")]
+public class AcceptDenyIncomingRequestPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "f413075d472826bc2ec756a6b133f603")]
-public class DI_Config : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "26c35a6e58328644d9c09808c2b4d582")]
+public class DI_Config2 : FTOptix.UI.Dialog
 {
 }
 
@@ -140,13 +145,13 @@ public class ConnectionPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "c05a81edcb91fa074772f19543ea1b38")]
-public class AcceptDenyIncomingRequestPanel : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "dc2c41b238ed9ce9aa4f98d28d04b528")]
+public class RequestAssistanceEnabledPanel : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "dc2c41b238ed9ce9aa4f98d28d04b528")]
-public class RequestAssistanceEnabledPanel : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "f0afd51b3f49febd40b32153974e81b8")]
+public class RequestAssistanceDisabledPanel : FTOptix.UI.Panel
 {
 }
 

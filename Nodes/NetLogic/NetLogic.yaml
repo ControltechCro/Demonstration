@@ -1,8 +1,39 @@
 Name: NetLogic
 Type: NetLogicCategoryFolder
 Children:
-- Name: UpdateDisplayText
+- Name: DigitalInputMux
   Type: NetLogic
   Children:
-  - Class: Method
-    Name: UpdateText
+  - Name: InputList
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Value: ["0","0","0","0","0","0","0"]
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/DigitalInputList/Entry"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: InputIndex
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/DigitalInputIndex"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: OutputString
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
