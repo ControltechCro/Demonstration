@@ -105,15 +105,55 @@ Project:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
    Version: 1.2
+  27:
+   Uri: 'urn:FTOptix:Report'
+   Module: FTOptix.Report
+   Version: 4.1
+  28:
+   Uri: 'urn:FTOptix:Report:Net'
+   Module: FTOptix.Report.Net
+   Version: 2.5
+  29:
+   Uri: 'urn:FTOptix:Store'
+   Module: FTOptix.Store
+   Version: 1.0
+  30:
+   Uri: 'urn:FTOptix:Store:Net'
+   Module: FTOptix.Store.Net
+   Version: 1.0
+  31:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  32:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
+  33:
+   Uri: 'urn:FTOptix:InfluxDBStore'
+   Module: FTOptix.InfluxDBStore
+   Version: 4.0
+  34:
+   Uri: 'urn:FTOptix:InfluxDBStore:Net'
+   Module: FTOptix.InfluxDBStore.Net
+   Version: 1.0
+  35:
+   Uri: 'urn:FTOptix:InfluxDBStoreLocal'
+   Module: FTOptix.InfluxDBStoreLocal
+   Version: 1.0
+  36:
+   Uri: 'urn:FTOptix:InfluxDBStoreLocal:Net'
+   Module: FTOptix.InfluxDBStoreLocal.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 5368
-  Objects: 1138
-  ObjectTypes: 36
-  Variables: 4177
+  TotalNodeCount: 5682
+  Objects: 1214
+  ObjectTypes: 37
+  Variables: 4414
   VariableTypes: 1
   DataTypes: 1
   Methods: 15
-  References: 69
+  References: 94
   ReferenceTypes: 0
   Files: 47
  Nodes:

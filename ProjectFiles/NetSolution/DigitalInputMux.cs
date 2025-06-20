@@ -17,6 +17,11 @@ using FTOptix.SerialPort;
 using FTOptix.UI;
 using FTOptix.Core;
 using System.Collections.Generic;
+using FTOptix.Report;
+using FTOptix.Recipe;
+using FTOptix.Store;
+using FTOptix.InfluxDBStoreLocal;
+using FTOptix.InfluxDBStore;
 #endregion
 
 public class DigitalInputMux : BaseNetLogic

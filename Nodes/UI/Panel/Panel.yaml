@@ -122,7 +122,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 0"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -157,11 +157,6 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Transparent"
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/Demonstration/UI/DefaultStyleSheet/ButtonStyles/Transparent"
     - Name: BackgroundColor
       Type: BaseDataVariableType
       DataType: Color
@@ -322,7 +317,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 1"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -519,7 +514,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 2"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 2"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -716,7 +711,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 3"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 3"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -913,7 +908,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 4"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 4"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1114,7 +1109,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 5"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 5"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1311,7 +1306,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 6"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 6"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1508,7 +1503,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 7"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 7"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2066,7 +2061,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Siemens"}
+      Value: {"NamespaceIndex":18,"TextId":"Siemens"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2334,7 +2329,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 0"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 0"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2539,7 +2534,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 1"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2740,7 +2735,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 2"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 2"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -2941,7 +2936,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 3"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 3"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3142,7 +3137,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 4"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 4"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3343,7 +3338,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 5"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 5"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3544,7 +3539,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 6"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 6"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3745,7 +3740,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Out 7"}
+      Value: {"NamespaceIndex":18,"TextId":"Out 7"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -3964,43 +3959,25 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 500.0
-  - Name: Image1
-    Type: Image
+  - Name: Label1
+    Type: Label
     Children:
-    - Name: Path
+    - Name: Text
       Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=18;%PROJECTDIR%/res/RobotLAB Dobot Robotic Arm-1-2-3.png"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
+      DataType: LocalizedText
       ModellingRule: Optional
-      Value: 535.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
+      Value: {"LocaleId":"en-US","Text":"Label1"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 238.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
-    - Name: FillMode
-      Type: BaseDataVariableType
-      DataType: FillModeEnum
-      ModellingRule: Optional
-      Value: 1
-    - Name: HitTestVisible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-- Name: Recipe
+      Value: 222.0
+- Name: ns=18;Recipe
   Id: g=a9d0ace2794bbbc7ed68171ce3ab6f55
   Supertype: Panel
   ReferenceType: HasComponent
@@ -4051,7 +4028,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Acknowledge"}
+        Value: {"LocaleId":"en-US","Text":"Acknowledge"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4172,7 +4149,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Acknowledge All"}
+        Value: {"LocaleId":"en-US","Text":"Acknowledge All"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4258,7 +4235,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Confirm"}
+        Value: {"LocaleId":"en-US","Text":"Confirm"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4379,7 +4356,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Confirm All"}
+        Value: {"LocaleId":"en-US","Text":"Confirm All"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4905,7 +4882,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":18,"TextId":"Active"}
+            Value: {"LocaleId":"en-US","Text":"Active"}
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -4983,7 +4960,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":18,"TextId":"Acked"}
+            Value: {"LocaleId":"en-US","Text":"Acked"}
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -5139,7 +5116,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"NamespaceIndex":18,"TextId":"Severity"}
+            Value: {"LocaleId":"en-US","Text":"Severity"}
           - Name: Width
             Type: BaseDataVariableType
             DataType: Size
@@ -5288,7 +5265,7 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 500.0
-- Name: Parameters
+- Name: Plant
   Id: g=b85b1b61f5ff9da80d213a5ab0862e37
   Supertype: Panel
   ReferenceType: HasComponent
@@ -5303,7 +5280,7 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 500.0
-- Name: Diag
+- Name: ns=18;Report
   Id: g=b1293153182ae653574d16bd8c6974cf
   Supertype: Panel
   ReferenceType: HasComponent
@@ -5318,7 +5295,226 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 500.0
-- Name: Report
+  - Name: Button1
+    Type: Button
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"Generate Report"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 328.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 455.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 107.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 39.0
+    - Name: MouseClickEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Type: BaseObjectType
+          Children:
+          - Name: ns=3;ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Demonstration/Reports/Reports1"
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=3;Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "GeneratePdf"
+          - Name: InputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: OutputPath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Description: {"NamespaceIndex":27,"TextId":"GeneratePdfOutputPathDescription"}
+              Value: "file:///C:/Users/jbozic/Desktop/ZK/01Software/HMI/Demonstration/ProjectFiles/Report/Report.pdf"
+            - Name: LocaleId
+              Type: BaseDataVariableType
+              DataType: LocaleId
+              Description: {"NamespaceIndex":27,"TextId":"GeneratePdfLocaleIdDescription"}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{Session}/LocaleId"
+          - Name: OutputArguments
+            Type: BaseObjectType
+            Children:
+            - Name: OperationId
+              Type: BaseDataVariableType
+              DataType: Guid
+              Description: {"NamespaceIndex":27,"TextId":"GeneratePdfOperationIdDescription"}
+      - Name: EventArguments
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+    - Name: PDFGeneratedHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/GeneratePdfCompletedEvent"
+      - Name: ListenObject
+        Type: NodePointer
+        DataType: NodeId
+        ReferenceType: HasProperty
+        Value: "/Objects/Demonstration/Reports/Reports1"
+        Children:
+        - Name: Kind
+          Type: PropertyType
+          DataType: NodeId
+          Value: "/Types/ObjectTypes/BaseObjectType"
+        - Name: NodeClass
+          Type: PropertyType
+          DataType: NodePointerNodeClass
+          ModellingRule: Optional
+      - Name: MethodsToCall
+        Type: BaseObjectType
+      - Name: EventArguments
+        Type: GeneratePdfCompletedEvent
+        Children:
+        - Name: OutputPath
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          ReferenceType: HasProperty
+        - Name: Result
+          Type: BaseDataVariableType
+          DataType: GeneratePdfCompletedResult
+          ReferenceType: HasProperty
+        - Name: OperationId
+          Type: BaseDataVariableType
+          DataType: Guid
+          ReferenceType: HasProperty
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: LocalTime
+          Type: PropertyType
+          DataType: TimeZoneDataType
+          ModellingRule: Optional
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+        - Name: ConditionClassId
+          Type: PropertyType
+          DataType: NodeId
+          ModellingRule: Optional
+        - Name: ConditionClassName
+          Type: PropertyType
+          DataType: LocalizedText
+          ModellingRule: Optional
+        - Name: ConditionSubClassId
+          Type: PropertyType
+          DataType: NodeId
+          ModellingRule: Optional
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+        - Name: ConditionSubClassName
+          Type: PropertyType
+          DataType: LocalizedText
+          ModellingRule: Optional
+          ValueRank: OneDimension
+          ArrayDimensions: [0]
+  - Name: PDFViewer1
+    Type: PdfViewer
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/Report/Report.pdf"
+    - Name: CurrentPage
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 800.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 450.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+- Name: Manual
   Id: g=5d5290f20f0919d8690a51610f71dc06
   Supertype: Panel
   ReferenceType: HasComponent
@@ -5333,4 +5529,41 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 500.0
+  - Name: PDFViewer1
+    Type: PdfViewer
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/Manuals/PanelTechnicalManual.pdf"
+    - Name: CurrentPage
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 800.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 500.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: ScrollBarStyle
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: ZoomMode
+      Type: BaseDataVariableType
+      DataType: PdfViewerZoomMode
+      ModellingRule: Optional
 - File: UserSecurity/UserSecurity.yaml

@@ -23,7 +23,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":18,"TextId":"ApplicationName"}
+      Value: {"LocaleId":"en-US","Text":"Application name"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -495,7 +495,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":18,"TextId":"CatalogNumber"}
+      Value: {"LocaleId":"en-US","Text":"Catalog #"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size

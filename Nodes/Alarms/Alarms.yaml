@@ -69,7 +69,7 @@ Children:
     Id: g=846e28fa4cd9c9605996a3643924f229
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Greška 00"}
+    Value: {"NamespaceIndex":18,"TextId":"Greška 00"}
 - Name: DigitalAlarm2
   Id: g=61facf1f1748aad35b5724b6bb0dbbd3
   Type: OffNormalAlarmController
@@ -137,4 +137,4 @@ Children:
     Id: g=5ea87d648580a7ba5cb3dbbaa9233de1
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"LocaleId":"en-US","Text":"Greška 01"}
+    Value: {"NamespaceIndex":18,"TextId":"Greška 01"}

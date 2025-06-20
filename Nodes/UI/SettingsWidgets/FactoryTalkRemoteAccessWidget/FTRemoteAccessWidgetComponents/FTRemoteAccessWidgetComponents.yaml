@@ -411,13 +411,13 @@ Children:
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
-            Value: {"NamespaceIndex":18,"TextId":"Connected"}
+            Value: {"LocaleId":"en-US","Text":" Connected"}
           - Name: FalseValue
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":18,"TextId":"Connecting"}
+            Value: {"LocaleId":"en-US","Text":" Connecting"}
       - Name: UncheckedText
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -952,7 +952,7 @@ Children:
             DataType: LocalizedText
             ReferenceType: HasParameter
             ModellingRule: Optional
-            Value: {"NamespaceIndex":18,"TextId":"AllowUserToConnect"}
+            Value: {"LocaleId":"en-US","Text":"Allow user \"{0}\" from IP address {1} to connect?"}
           - Name: ns=3;Source0
             Type: BaseDataVariableType
             DataType: BaseDataType
@@ -2026,7 +2026,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"AssistanceRequested"}
+          Value: {"LocaleId":"en-US","Text":" Assistance Requested"}
         - Name: RequestAssistanceSwitchLogic
           Type: NetLogic
           Children:
@@ -2384,13 +2384,13 @@ Children:
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"RequestsDisabled"}
+          Value: {"LocaleId":"en-US","Text":"Assistance requests are disabled for this device. Please contact your system administrator."}
         - Name: FalseValue
           Type: BaseDataVariableType
           DataType: LocalizedText
           ReferenceType: HasParameter
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"RequestsUnavailable"}
+          Value: {"LocaleId":"en-US","Text":"Assistance requests are unavailable for this device while disconnected."}
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment

@@ -117,7 +117,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":18,"TextId":"AssistancePanelTitle"}
+          Value: {"LocaleId":"en-US","Text":"Assistance"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId

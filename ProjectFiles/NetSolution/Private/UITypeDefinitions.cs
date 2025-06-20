@@ -11,7 +11,7 @@ public class MainWindow : FTOptix.UI.Window
 }
 
 [MapType(NamespaceUri = "Demonstration", Guid = "b85b1b61f5ff9da80d213a5ab0862e37")]
-public class Parameters : FTOptix.UI.Panel
+public class Plant : FTOptix.UI.Panel
 {
 }
 
@@ -71,7 +71,7 @@ public class Settings : FTOptix.UI.Panel
 }
 
 [MapType(NamespaceUri = "Demonstration", Guid = "5d5290f20f0919d8690a51610f71dc06")]
-public class Report : FTOptix.UI.Panel
+public class Manual : FTOptix.UI.Panel
 {
 }
 
@@ -81,7 +81,7 @@ public class Alarms : FTOptix.UI.Panel
 }
 
 [MapType(NamespaceUri = "Demonstration", Guid = "b1293153182ae653574d16bd8c6974cf")]
-public class Diag : FTOptix.UI.Panel
+public class Report : FTOptix.UI.Panel
 {
 }
 

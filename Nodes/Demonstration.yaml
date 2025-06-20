@@ -9,13 +9,13 @@ Children:
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","hr-HR","bs-BA"]
   - Name: LocaleFallbackList
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["en-US","hr-HR","bs-BA"]
 - Name: Authentication
   Type: PropertyGroup
   Children:
@@ -65,3 +65,10 @@ Children:
 - File: System/System.yaml
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId

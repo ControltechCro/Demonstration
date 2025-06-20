@@ -12,6 +12,10 @@ using FTOptix.Retentivity;
 using FTOptix.Alarm;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.Report;
+using FTOptix.Recipe;
+using FTOptix.InfluxDBStoreLocal;
+using FTOptix.InfluxDBStore;
 #endregion
 
 public class LoginChangePasswordButtonLogic : BaseNetLogic

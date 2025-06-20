@@ -323,7 +323,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":18,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"LocaleId":"en-US","Text":"Authentication failed"}
             - Name: Pair2
               Type: ValueMapPair
               ModellingRule: None
@@ -351,7 +351,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":18,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"LocaleId":"en-US","Text":"Authentication failed"}
             - Name: Pair4
               Type: ValueMapPair
               ModellingRule: None
@@ -365,7 +365,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":18,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"LocaleId":"en-US","Text":"Authentication failed"}
             - Name: Pair5
               Type: ValueMapPair
               ModellingRule: None
@@ -379,7 +379,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":18,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"LocaleId":"en-US","Text":"Authentication failed"}
             - Name: Pair6
               Type: ValueMapPair
               ModellingRule: None
@@ -393,7 +393,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: None
-                Value: {"NamespaceIndex":18,"TextId":"LoginFormAuthenticationFailed"}
+                Value: {"LocaleId":"en-US","Text":"Authentication failed"}
             - Name: Pair7
               Type: ValueMapPair
               ModellingRule: None
@@ -532,7 +532,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Your password is expired. Please enter a new one"}
+        Value: {"LocaleId":"en-US","Text":"Your password is expired.\nPlease enter a new one."}
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -966,7 +966,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"NamespaceIndex":18,"TextId":"Change password"}
+      Value: {"LocaleId":"en-US","Text":"Change password"}
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size

@@ -10,6 +10,10 @@ using FTOptix.UI;
 using FTOptix.Alarm;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.Report;
+using FTOptix.Recipe;
+using FTOptix.InfluxDBStoreLocal;
+using FTOptix.InfluxDBStore;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

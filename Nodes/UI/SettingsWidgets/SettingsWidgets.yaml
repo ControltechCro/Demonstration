@@ -36,7 +36,7 @@ Children:
     - Name: Text
       Type: BaseDataVariableType
       DataType: LocalizedText
-      Value: {"NamespaceIndex":18,"TextId":"AutoMode"}
+      Value: {"LocaleId":"en-US","Text":"Auto (Remote NTP server)"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size

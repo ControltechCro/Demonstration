@@ -194,6 +194,11 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="2328426b2bf7c57bc5627326b362d4f3" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
                 <NodeId namespaceUri="Demonstration" guid="2eebfd3def044e747aa57952fc13c70d" />
             </TargetType>
         </TypeMapping>

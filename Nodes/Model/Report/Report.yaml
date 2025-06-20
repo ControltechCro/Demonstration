@@ -1,0 +1,23 @@
+Name: Report
+Id: g=8acdf4bb63a2e6d693bc9354fc641961
+Type: FolderType
+Children:
+- Name: ReportDataInstance
+  Type: ReportData
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 12
+  - Name: Weight
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 45
+  - Name: Length
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 78
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Product#123"

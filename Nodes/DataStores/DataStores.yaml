@@ -1,2 +1,88 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
+Children:
+- Name: LocalInfluxDBDatabase
+  Type: InfluxDBStoreLocal
+  Children:
+  - Name: RetentionPeriod
+    Type: BaseDataVariableType
+    DataType: Duration
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: Password
+    AccessLevel: Read
+    Value: "KnPWaa8p"
+  - Name: Password
+    Type: BaseDataVariableType
+    DataType: Password
+    AccessLevel: Read
+    Value: "pZpshD39lB2RB06t"
+  - Name: Token
+    Type: BaseDataVariableType
+    DataType: Password
+    AccessLevel: Read
+    Value: "V7nMzxxs6N0kMBIEXSBlTP6v"
+  - Name: Organization
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "Rockwell"
+  - Name: Bucket
+    Type: BaseDataVariableType
+    DataType: String
+    AccessLevel: Read
+    Value: "bucket"
+  - Name: Tables
+    Type: BaseObjectType
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=29;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=59
+    Direction: Forward

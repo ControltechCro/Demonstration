@@ -166,7 +166,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Simulate"}
+      Value: {"NamespaceIndex":18,"TextId":"Simulate"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -242,7 +242,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Physical State:"}
+      Value: {"NamespaceIndex":18,"TextId":"Physical State:"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -270,7 +270,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Processed State:"}
+      Value: {"NamespaceIndex":18,"TextId":"Processed State:"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -354,7 +354,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Invert"}
+      Value: {"NamespaceIndex":18,"TextId":"Invert"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -733,7 +733,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Digital Input Data"}
+      Value: {"NamespaceIndex":18,"TextId":"Digital Input Data"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -1125,7 +1125,7 @@ Children:
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Digital Input Data - PopUp in PopUp"}
+      Value: {"NamespaceIndex":18,"TextId":"Digital Input Data - PopUp in PopUp"}
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size

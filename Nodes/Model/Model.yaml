@@ -18,3 +18,21 @@ Children:
   Id: g=164ea2d05b775ddd96d10a7bd9f2c828
   Type: BaseDataVariableType
   DataType: Int16
+- File: Report/Report.yaml
+- Name: ReportData
+  Id: g=2328426b2bf7c57bc5627326b362d4f3
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int16
+  - Name: Weight
+    Type: BaseDataVariableType
+    DataType: Int16
+  - Name: Length
+    Type: BaseDataVariableType
+    DataType: Int16
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

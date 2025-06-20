@@ -531,8 +531,16 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"User:"}
+        Children:
+        - Name: ExpressionEvaluator1
+          Type: ExpressionEvaluator
+          Children:
+          - Name: Expression
+            Type: BaseDataVariableType
+            DataType: String
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: "UserKey"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -781,7 +789,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Demonstration/UI/Panel/Parameters"
+          Value: "/Objects/Demonstration/UI/Panel/Plant"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -796,7 +804,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Demonstration/UI/Panel/Diag"
+          Value: "/Objects/Demonstration/UI/Panel/Report"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -808,11 +816,11 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Report"}
+          Value: {"NamespaceIndex":18,"TextId":"Report"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/Demonstration/UI/Panel/Report"
+          Value: "/Objects/Demonstration/UI/Panel/Manual"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -2082,7 +2090,6 @@ Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
-        ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Recipe"}
       - Name: Width
         Type: BaseVariableType
@@ -3165,7 +3172,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Settings"}
+        Value: {"NamespaceIndex":18,"TextId":"Settings"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3707,14 +3714,14 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
-    - Name: GoToParameters
+    - Name: GoToPlant
       Type: Button
       Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Plant"}
+        Value: {"NamespaceIndex":18,"TextId":"Plant"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -3787,7 +3794,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/Demonstration/UI/Panel/Parameters"
+                Value: "/Objects/Demonstration/UI/Panel/Plant"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -4248,14 +4255,14 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
-    - Name: GoToDiagnostics
+    - Name: GoToReport
       Type: Button
       Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"NamespaceIndex":18,"TextId":"Diagnostics"}
+        Value: {"NamespaceIndex":18,"TextId":"Report"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4328,7 +4335,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/Demonstration/UI/Panel/Diag"
+                Value: "/Objects/Demonstration/UI/Panel/Report"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -4789,14 +4796,14 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
-    - Name: GoToReport
+    - Name: GoToManual
       Type: Button
       Children:
       - Name: Text
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Report"}
+        Value: {"LocaleId":"en-US","Text":"Manual"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -4869,7 +4876,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/Demonstration/UI/Panel/Report"
+                Value: "/Objects/Demonstration/UI/Panel/Manual"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
@@ -5393,7 +5400,6 @@ Children:
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
 - File: Panel/Panel.yaml
-- File: Graphics/Graphics.yaml
 - File: Faceplates/Faceplates.yaml
 - File: Keyboards/Keyboards.yaml
 - File: Popup/Popup.yaml
