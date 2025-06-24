@@ -137,23 +137,39 @@ Project:
    Uri: 'urn:FTOptix:InfluxDBStore:Net'
    Module: FTOptix.InfluxDBStore.Net
    Version: 1.0
-  35:
-   Uri: 'urn:FTOptix:InfluxDBStoreLocal'
-   Module: FTOptix.InfluxDBStoreLocal
+  37:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  38:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
+  39:
+   Uri: 'urn:FTOptix:InfluxDBStoreRemote'
+   Module: FTOptix.InfluxDBStoreRemote
    Version: 1.0
-  36:
-   Uri: 'urn:FTOptix:InfluxDBStoreLocal:Net'
-   Module: FTOptix.InfluxDBStoreLocal.Net
+  40:
+   Uri: 'urn:FTOptix:InfluxDBStoreRemote:Net'
+   Module: FTOptix.InfluxDBStoreRemote.Net
+   Version: 1.0
+  41:
+   Uri: 'urn:FTOptix:DataLogger'
+   Module: FTOptix.DataLogger
+   Version: 2.0
+  42:
+   Uri: 'urn:FTOptix:DataLogger:Net'
+   Module: FTOptix.DataLogger.Net
    Version: 1.0
  Statistics:
-  TotalNodeCount: 5682
-  Objects: 1214
+  TotalNodeCount: 5847
+  Objects: 1237
   ObjectTypes: 37
-  Variables: 4414
+  Variables: 4556
   VariableTypes: 1
   DataTypes: 1
   Methods: 15
-  References: 94
+  References: 104
   ReferenceTypes: 0
   Files: 47
  Nodes:

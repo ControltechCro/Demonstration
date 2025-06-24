@@ -37,3 +37,9 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+- Name: DelayGrahicLoad
+  Type: NetLogic
+  Children:
+  - Name: Output
+    Type: BaseDataVariableType
+    DataType: Boolean

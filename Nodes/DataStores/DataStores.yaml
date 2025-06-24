@@ -1,39 +1,126 @@
 Name: DataStores
 Type: DataStoresCategoryFolder
 Children:
-- Name: LocalInfluxDBDatabase
-  Type: InfluxDBStoreLocal
+- Name: RemoteInfluxDBDatabase
+  Id: g=7322bd8dceae3ea0dcb31095f50cc70d
+  Type: InfluxDBStoreRemote
   Children:
-  - Name: RetentionPeriod
+  - Name: Server
     Type: BaseDataVariableType
-    DataType: Duration
-  - Name: Username
+    DataType: String
+    Value: "192.168.1.124"
+  - Name: Port
     Type: BaseDataVariableType
-    DataType: Password
+    DataType: UInt16
+    Value: 8086
+  - Name: UseSSL
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
     AccessLevel: Read
-    Value: "KnPWaa8p"
-  - Name: Password
+  - Name: SFBufferOverflow
     Type: BaseDataVariableType
-    DataType: Password
+    DataType: Boolean
     AccessLevel: Read
-    Value: "pZpshD39lB2RB06t"
+  - Name: SFBufferOverwrite
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: DataLogger1
+      Type: RemoteInfluxDBStoreTable
+      Children:
+      - Name: Tags
+        Type: BaseObjectType
+      - Class: Reference
+        Target: ns=29;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../UI/SettingsWidgets/ClockLogic/UTCTime"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../UI/SettingsWidgets/ClockLogic/Time"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ScreenNumber
+          Type: StoreColumn
+          DataType: BaseDataType
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../Model/ScreenNo"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: BoxesProduced
+          Type: StoreColumn
+          DataType: BaseDataType
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../Model/InfluxDemoVar"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
   - Name: Token
     Type: BaseDataVariableType
     DataType: Password
-    AccessLevel: Read
-    Value: "V7nMzxxs6N0kMBIEXSBlTP6v"
+    Value: "jvKBV3nle684Td3nf2axxNBJ03fMtSl_DyeBsxjUvSbsjZPFjss4LFp_4msi_cZho2xuCVI2clqTOmxX_M8d-A=="
   - Name: Organization
     Type: BaseDataVariableType
     DataType: String
-    AccessLevel: Read
-    Value: "Rockwell"
+    Value: "Controltech"
   - Name: Bucket
     Type: BaseDataVariableType
     DataType: String
-    AccessLevel: Read
-    Value: "bucket"
-  - Name: Tables
-    Type: BaseObjectType
+    Value: "FTOptix"
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32

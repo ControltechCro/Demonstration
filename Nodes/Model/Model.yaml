@@ -36,3 +36,9 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
+- Name: FooterVisu
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: InfluxDemoVar
+  Type: BaseDataVariableType
+  DataType: Int16

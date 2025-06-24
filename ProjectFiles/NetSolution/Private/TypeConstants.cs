@@ -11,10 +11,11 @@ namespace Demonstration
     {
         private static readonly int namespaceIndex = NamespaceMapProvider.GetNamespaceIndex("Demonstration");
         public static readonly NodeId MainWindow = new NodeId(namespaceIndex, new Guid("01a7e8933afd7c95fe894b0859308138"));
-        public static readonly NodeId Plant = new NodeId(namespaceIndex, new Guid("b85b1b61f5ff9da80d213a5ab0862e37"));
         public static readonly NodeId Recipe = new NodeId(namespaceIndex, new Guid("a9d0ace2794bbbc7ed68171ce3ab6f55"));
         public static readonly NodeId Configuration = new NodeId(namespaceIndex, new Guid("9cf154c923572624320f16c16fa657a3"));
         public static readonly NodeId DateAndTimeWidget = new NodeId(namespaceIndex, new Guid("dfd608856ac9169edc3dd3847ce7f7bc"));
+        public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
+        public static readonly NodeId ReportData = new NodeId(namespaceIndex, new Guid("2328426b2bf7c57bc5627326b362d4f3"));
         public static readonly NodeId Login = new NodeId(namespaceIndex, new Guid("ce814fddddd607c776a3b9a6e0b90c27"));
         public static readonly NodeId FTRemoteAccessWidget = new NodeId(namespaceIndex, new Guid("41382c57dc616862c1af276ff6942abc"));
         public static readonly NodeId PLC = new NodeId(namespaceIndex, new Guid("993b59924a12f899fc1ae269f7b02af8"));
@@ -25,6 +26,7 @@ namespace Demonstration
         public static readonly NodeId Settings = new NodeId(namespaceIndex, new Guid("dbcc1657f2c288dd3f8171e79c2740c3"));
         public static readonly NodeId Manual = new NodeId(namespaceIndex, new Guid("5d5290f20f0919d8690a51610f71dc06"));
         public static readonly NodeId Alarms = new NodeId(namespaceIndex, new Guid("f92dcaf50aadee1b3fca5fcc4d199c62"));
+        public static readonly NodeId Plant = new NodeId(namespaceIndex, new Guid("b85b1b61f5ff9da80d213a5ab0862e37"));
         public static readonly NodeId Report = new NodeId(namespaceIndex, new Guid("b1293153182ae653574d16bd8c6974cf"));
         public static readonly NodeId DigitalInput = new NodeId(namespaceIndex, new Guid("c81edd64e5a8170f94681e5ac28fc228"));
         public static readonly NodeId AcceptDenyIncomingRequestPanel = new NodeId(namespaceIndex, new Guid("c05a81edcb91fa074772f19543ea1b38"));
@@ -45,8 +47,6 @@ namespace Demonstration
         public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
         public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
         public static readonly NodeId LoginChangePasswordForm = new NodeId(namespaceIndex, new Guid("fc0d46c3cf6fc6f7faace8fa13bde2b5"));
-        public static readonly NodeId ReportData = new NodeId(namespaceIndex, new Guid("2328426b2bf7c57bc5627326b362d4f3"));
-        public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
     }
 
     public static class VariableTypes
