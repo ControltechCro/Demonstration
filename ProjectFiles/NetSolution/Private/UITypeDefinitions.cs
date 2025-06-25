@@ -10,6 +10,11 @@ public class MainWindow : FTOptix.UI.Window
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "b85b1b61f5ff9da80d213a5ab0862e37")]
+public class Plant : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "a9d0ace2794bbbc7ed68171ce3ab6f55")]
 public class Recipe : FTOptix.UI.Panel
 {
@@ -22,11 +27,6 @@ public class Configuration : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "Demonstration", Guid = "dfd608856ac9169edc3dd3847ce7f7bc")]
 public class DateAndTimeWidget : FTOptix.UI.Screen
-{
-}
-
-[MapType(NamespaceUri = "Demonstration", Guid = "2eebfd3def044e747aa57952fc13c70d")]
-public class Logout : FTOptix.UI.Panel
 {
 }
 
@@ -80,11 +80,6 @@ public class Alarms : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "b85b1b61f5ff9da80d213a5ab0862e37")]
-public class Plant : FTOptix.UI.Panel
-{
-}
-
 [MapType(NamespaceUri = "Demonstration", Guid = "b1293153182ae653574d16bd8c6974cf")]
 public class Report : FTOptix.UI.Panel
 {
@@ -102,6 +97,11 @@ public class AcceptDenyIncomingRequestPanel : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "Demonstration", Guid = "26c35a6e58328644d9c09808c2b4d582")]
 public class DI_Config2 : FTOptix.UI.Dialog
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "2eebfd3def044e747aa57952fc13c70d")]
+public class Logout : FTOptix.UI.Panel
 {
 }
 

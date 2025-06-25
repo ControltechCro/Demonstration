@@ -1,0 +1,75 @@
+Name: Recipe
+Type: FolderType
+Children:
+- Name: RecipeDataLine1
+  Id: g=4c8e8fd3c28c623497d0dcaf621df10b
+  Type: BaseObjectType
+  Children:
+  - Name: WaterWeight
+    Id: g=aa1745dfbebcf65aa7bea1c761165828
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SyrupWeight
+    Id: g=25386af312b66f06ca2352c88b9c7afa
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SugarWeight
+    Id: g=103e6ccb9607d4297126a80b67bbe679
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: MixingSpeed
+    Id: g=d1df4df572aa0454610bc160bb90e02a
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MixingTime
+    Id: g=a5925fa2ae513c8029bb00f749682683
+    Type: BaseDataVariableType
+    DataType: UInt16
+- Name: RecipeDataLine2
+  Id: g=b9fc9677a4a877393425f67779f79807
+  Type: BaseObjectType
+  Children:
+  - Name: WaterWeight
+    Id: g=026a43b646f14650a173e0c6b8ad4981
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SyrupWeight
+    Id: g=9fe291f9f00b089978dec85055258797
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SugarWeight
+    Id: g=ce26be942c7d7faae143f7040c1771ad
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: MixingSpeed
+    Id: g=b456b9b33799ecb5df8364c23f28b5d5
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MixingTime
+    Id: g=c1bc3e08c281a269200d58cfa312fab0
+    Type: BaseDataVariableType
+    DataType: UInt16
+- Name: RecipeDataLine3
+  Id: g=e4dee421ec8b7f0518fcfcbca0968774
+  Type: BaseObjectType
+  Children:
+  - Name: WaterWeight
+    Id: g=9738e636d823302b0fb39fd6129c9b85
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SyrupWeight
+    Id: g=2909867936d8e71ecc8db72f91e63f78
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SugarWeight
+    Id: g=45eeaeb845da2c2a78bbe664c5222aa1
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: MixingSpeed
+    Id: g=b88de976cdd21dafc7296e9b86cda728
+    Type: BaseDataVariableType
+    DataType: UInt16
+  - Name: MixingTime
+    Id: g=52c60cc1f5500808d5eb85e66cf3cfd3
+    Type: BaseDataVariableType
+    DataType: UInt16

@@ -1,0 +1,6 @@
+Name: Influx
+Type: FolderType
+Children:
+- Name: InfluxDemoVar
+  Type: BaseDataVariableType
+  DataType: Int16

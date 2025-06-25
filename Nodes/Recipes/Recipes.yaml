@@ -2,10 +2,27 @@ Name: Recipes
 Type: RecipesCategoryFolder
 Children:
 - Name: RecipeSchema1
+  Id: g=88328191131e0188afcfdf7a8168594f
   Type: RecipeSchema
   Children:
   - Name: Root
     Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16
   - Class: Reference
     Target: ns=31;i=27
     Direction: Forward
@@ -42,3 +59,230 @@ Children:
   - Class: Reference
     Target: ns=31;i=60
     Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/Model/Recipe/RecipeDataLine1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: EditModel
+    Id: g=e2e62511b2bfb19a39a694eb14e22505
+    Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/DataStores/RecipeDatabaseLine1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+- Name: RecipeSchema2
+  Id: g=b54f18ccc0b62395cb704e18d397886d
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16
+  - Class: Reference
+    Target: ns=31;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/DataStores/RecipeDatabaseLine2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/Model/Recipe/RecipeDataLine2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=b8f699d43e188c7e46a2c8858d7224fc
+    Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16
+- Name: RecipeSchema3
+  Id: g=72f057f3532f6f7491b296a16697f979
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16
+  - Class: Reference
+    Target: ns=31;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/DataStores/RecipeDatabaseLine3"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/Model/Recipe/RecipeDataLine3"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=cb664d0d881f1db5485229e37c0e170b
+    Type: BaseObjectType
+    Children:
+    - Name: WaterWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SyrupWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: SugarWeight
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: MixingSpeed
+      Type: BaseDataVariableType
+      DataType: UInt16
+    - Name: MixingTime
+      Type: BaseDataVariableType
+      DataType: UInt16

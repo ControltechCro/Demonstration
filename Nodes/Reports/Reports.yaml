@@ -428,7 +428,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Item}/Speed"
+                Value: "{Item}/WaterWeight"
         - Name: DataGridColumn3
           Type: ReportDataGridColumn
           Children:
@@ -480,7 +480,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Item}/Weight"
+                Value: "{Item}/SyrupWeight"
         - Name: DataGridColumn4
           Type: ReportDataGridColumn
           Children:
@@ -532,7 +532,97 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{Item}/Length"
+                Value: "{Item}/SugarWeight"
+        - Name: DataGridColumn5
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Children:
+              - Name: UnitId
+                Type: BaseDataVariableType
+                DataType: Int32
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+              - Name: Description
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+        - Name: DataGridColumn6
+          Type: ReportDataGridColumn
+          Children:
+          - Name: Width
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+            Children:
+            - Name: EngineeringUnits
+              Type: EUInformationType
+              DataType: EUInformation
+              Children:
+              - Name: UnitId
+                Type: BaseDataVariableType
+                DataType: Int32
+                AccessLevel: Read
+                Value: 5066068
+              - Name: DisplayName
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+              - Name: Description
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+          - Name: Title
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: HeaderAlignment
+            Type: BaseDataVariableType
+            DataType: TextHorizontalAlignment
+          - Name: ContentAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+          - Name: OrderBy
+            Type: BaseDataVariableType
+            DataType: NodePath
+          - Name: DataItemTemplate
+            Type: ReportDataGridLabelItemTemplate
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
       - Name: SelectedItem
         Type: NodePointer
         DataType: NodeId
@@ -541,7 +631,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Demonstration/Model/ReportData"
+          Value: "/Objects/Demonstration/Model/Report/ReportData"
       - Name: Model
         Type: NodePointer
         DataType: NodeId
@@ -550,7 +640,7 @@ Children:
         - Name: ItemKind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Demonstration/Model/ReportData"
+          Value: "/Objects/Demonstration/Model/Report/ReportData"
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
@@ -597,7 +687,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Objects/Demonstration/Model/ReportData"
+          Value: "/Objects/Demonstration/Model/Report/ReportData"
       - Name: TopMargin
         Type: BaseDataVariableType
         DataType: Size

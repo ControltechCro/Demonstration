@@ -103,7 +103,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Model/InfluxDemoVar"
+            Value: "../../../../../../Model/Influx/InfluxDemoVar"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -121,6 +121,309 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "FTOptix"
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=29;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=59
+    Direction: Forward
+- Name: RecipeDatabaseLine1
+  Id: g=7b1302a292bb18646f9538ed16b9a126
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=29;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /WaterWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SyrupWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SugarWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /MixingSpeed
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: /MixingTime
+          Type: StoreColumn
+          DataType: UInt16
+  - Class: Reference
+    Target: ns=43;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=43;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=29;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=59
+    Direction: Forward
+- Name: RecipeDatabaseLine2
+  Id: g=39720cee8fa6296aa66d4184772f17ba
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema2
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=29;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /WaterWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SyrupWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SugarWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /MixingSpeed
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: /MixingTime
+          Type: StoreColumn
+          DataType: UInt16
+  - Class: Reference
+    Target: ns=43;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=43;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=29;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=59
+    Direction: Forward
+- Name: RecipeDatabaseLine3
+  Id: g=400b2bf64ff07cf527b46c2321ea8cf1
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeSchema3
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=29;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /WaterWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SyrupWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /SugarWeight
+          Type: StoreColumn
+          DataType: Float
+        - Name: /MixingSpeed
+          Type: StoreColumn
+          DataType: UInt16
+        - Name: /MixingTime
+          Type: StoreColumn
+          DataType: UInt16
+  - Class: Reference
+    Target: ns=43;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=43;i=33
+    Direction: Forward
   - Name: MaxColumnNameLength
     Type: BaseDataVariableType
     DataType: UInt32

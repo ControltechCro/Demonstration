@@ -2,22 +2,51 @@ Name: Report
 Id: g=8acdf4bb63a2e6d693bc9354fc641961
 Type: FolderType
 Children:
-- Name: ReportDataInstance
+- Name: ReportDataInstanceProduct123
   Type: ReportData
   Children:
-  - Name: Speed
+  - Name: WaterWeight
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 12.0
+  - Name: SyrupWeight
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 45.0
+  - Name: SugarWeight
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 78.0
+  - Name: MixingSpeed
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 12
-  - Name: Weight
+  - Name: MixingTime
     Type: BaseDataVariableType
     DataType: Int16
-    Value: 45
-  - Name: Length
-    Type: BaseDataVariableType
-    DataType: Int16
-    Value: 78
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
-    Value: "Product#123"
+    Value: "0"
+- Name: ReportData
+  Id: g=2328426b2bf7c57bc5627326b362d4f3
+  Supertype: BaseObjectType
+  Children:
+  - Name: WaterWeight
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SyrupWeight
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: SugarWeight
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: MixingSpeed
+    Type: BaseDataVariableType
+    DataType: Int16
+  - Name: MixingTime
+    Type: BaseDataVariableType
+    DataType: Int16
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

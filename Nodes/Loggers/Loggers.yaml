@@ -64,7 +64,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../../Model/InfluxDemoVar"
+        Value: "../../../../Model/Influx/InfluxDemoVar"
         Children:
         - Name: Mode
           Type: BaseVariableType

@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [130,4],
+    "Dimensions": [150,4],
     "Body": [
      "","en-US","hr-HR","bs-BA",
      "Reboot","Reboot","Reboot","",
@@ -140,6 +140,26 @@ Children:
      "Simulate","Simulate","Simuliraj","",
      "X","X","X","",
      "AAtest","EngTranslate","CROtranslate","BihTranslate",
-     "AA2TEST","ENG","CRO","BIH"
+     "AA2TEST","ENG","CRO","BIH",
+     "RecipesEditorStoreOfSchema","Store of schema","","",
+     "Save","Save","","",
+     "Delete","Delete","","",
+     "Load","Load","","",
+     "RecipeControllerRecipe","Recipe","","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","","",
+     "RecipeControllerCreatedAndSaved","created and saved","","",
+     "RecipeControllerDeleted","deleted","","",
+     "RecipeControllerRecipeApplied","Recipe applied","","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","","",
+     "RecipeControllerSaved","saved","","",
+     "RecipesEditorNotARecipe","is not a recipe","","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","","",
+     "RecipesEditorRecipeNotFound","Recipe not found","","",
+     "RecipesEditorNotAStore","is not a store","","",
+     "RecipesEditorNotSet","is not set","","",
+     "RecipesEditorStore","Store","","",
+     "RecipesEditorNotFound","not found","","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","",""
     ]
    }

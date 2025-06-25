@@ -26,6 +26,7 @@ using System.Threading.Tasks;
 using UAManagedCore;
 using FTOptix.InfluxDBStoreRemote;
 using FTOptix.DataLogger;
+using FTOptix.SQLiteStore;
 #endregion
 
 public class DelayGrahicLoad : BaseNetLogic

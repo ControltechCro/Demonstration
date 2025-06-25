@@ -25,6 +25,7 @@ using FTOptix.InfluxDBStore;
 using FTOptix.WebUI;
 using FTOptix.InfluxDBStoreRemote;
 using FTOptix.DataLogger;
+using FTOptix.SQLiteStore;
 #endregion
 
 public class DigitalInputMux : BaseNetLogic
