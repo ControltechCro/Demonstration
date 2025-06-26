@@ -90,6 +90,16 @@ public class DigitalInput : FTOptix.UI.Panel
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "d0fba00ff93f064d6e1cb546eea27209")]
+public class LoginForm : FTOptix.UI.PanelLoader
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "a897ba0fc448d2db790166dd674db06a")]
+public class TankStorage : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "c05a81edcb91fa074772f19543ea1b38")]
 public class AcceptDenyIncomingRequestPanel : FTOptix.UI.Panel
 {
@@ -162,11 +172,6 @@ public class RequestAssistanceDisabledPanel : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "Demonstration", Guid = "323ecbd80fe0dccc66307959b261f54a")]
 public class EmptyPanel : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "Demonstration", Guid = "d0fba00ff93f064d6e1cb546eea27209")]
-public class LoginForm : FTOptix.UI.PanelLoader
 {
 }
 

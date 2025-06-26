@@ -27,6 +27,8 @@ namespace Demonstration
         public static readonly NodeId Alarms = new NodeId(namespaceIndex, new Guid("f92dcaf50aadee1b3fca5fcc4d199c62"));
         public static readonly NodeId Report = new NodeId(namespaceIndex, new Guid("b1293153182ae653574d16bd8c6974cf"));
         public static readonly NodeId DigitalInput = new NodeId(namespaceIndex, new Guid("c81edd64e5a8170f94681e5ac28fc228"));
+        public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
+        public static readonly NodeId TankStorage = new NodeId(namespaceIndex, new Guid("a897ba0fc448d2db790166dd674db06a"));
         public static readonly NodeId AcceptDenyIncomingRequestPanel = new NodeId(namespaceIndex, new Guid("c05a81edcb91fa074772f19543ea1b38"));
         public static readonly NodeId DI_Config2 = new NodeId(namespaceIndex, new Guid("26c35a6e58328644d9c09808c2b4d582"));
         public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
@@ -44,7 +46,6 @@ namespace Demonstration
         public static readonly NodeId RequestAssistanceEnabledPanel = new NodeId(namespaceIndex, new Guid("dc2c41b238ed9ce9aa4f98d28d04b528"));
         public static readonly NodeId RequestAssistanceDisabledPanel = new NodeId(namespaceIndex, new Guid("f0afd51b3f49febd40b32153974e81b8"));
         public static readonly NodeId EmptyPanel = new NodeId(namespaceIndex, new Guid("323ecbd80fe0dccc66307959b261f54a"));
-        public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
         public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
         public static readonly NodeId LoginChangePasswordForm = new NodeId(namespaceIndex, new Guid("fc0d46c3cf6fc6f7faace8fa13bde2b5"));
     }

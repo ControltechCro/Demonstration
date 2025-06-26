@@ -104,6 +104,16 @@
         </TypeMapping>
         <TypeMapping>
             <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="d0fba00ff93f064d6e1cb546eea27209" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
+                <NodeId namespaceUri="Demonstration" guid="a897ba0fc448d2db790166dd674db06a" />
+            </TargetType>
+        </TypeMapping>
+        <TypeMapping>
+            <TargetType>
                 <NodeId namespaceUri="Demonstration" guid="c05a81edcb91fa074772f19543ea1b38" />
             </TargetType>
         </TypeMapping>
@@ -185,11 +195,6 @@
         <TypeMapping>
             <TargetType>
                 <NodeId namespaceUri="Demonstration" guid="323ecbd80fe0dccc66307959b261f54a" />
-            </TargetType>
-        </TypeMapping>
-        <TypeMapping>
-            <TargetType>
-                <NodeId namespaceUri="Demonstration" guid="d0fba00ff93f064d6e1cb546eea27209" />
             </TargetType>
         </TypeMapping>
         <TypeMapping>
