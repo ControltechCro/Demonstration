@@ -4352,24 +4352,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 105.0
-  - Name: Label2
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Upisivanje u InfluxDB"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 485.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 80.0
 - Name: ns=18;Recipe
   Id: g=a9d0ace2794bbbc7ed68171ce3ab6f55
   Supertype: Panel
