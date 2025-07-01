@@ -249,444 +249,6 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Demonstration@BrowseName"
-  - Name: Header
-    Type: RowLayout
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 800.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Logo
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=18;%PROJECTDIR%/CTmaliTP.png"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 230.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-    - Name: DateAndTime1
-      Type: DateTimePicker
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: DateTime
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Demonstration/UI/SettingsWidgets/ClockLogic/Time"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 435.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: InputFormat
-        Type: BaseDataVariableType
-        DataType: DateTimePickerInputFormatEnum
-        ModellingRule: Optional
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: TextHorizontalAlignment
-        Type: BaseVariableType
-        DataType: TextHorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: TextVerticalAlignment
-        Type: BaseVariableType
-        DataType: TextVerticalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 130.0
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "Default"
-    - Name: SeparatorLine1
-      Type: PolyLine
-      Children:
-      - Name: LineThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -130.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "M 0.000000 30.000000 L 0.000000 0.000000"
-      - Name: LineColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#b3b3b3"
-    - Name: SeparatorLine2
-      Type: PolyLine
-      Children:
-      - Name: LineThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 1.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -220.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "M 0.000000 30.000000 L 0.000000 0.000000"
-      - Name: LineColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#b3b3b3"
-    - Name: GoToLogin
-      Type: Button
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":""}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "Default"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 215.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
-        Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
-        - Name: MethodsToCall
-          Type: BaseObjectType
-          Children:
-          - Name: MethodContainer1
-            Type: BaseObjectType
-            Children:
-            - Name: ns=3;ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: "/Types/ObjectTypes/BaseObjectType"
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../../../PanelLoader1@NodeId"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: ns=3;Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "ChangePanel"
-            - Name: InputArguments
-              Type: BaseObjectType
-              Children:
-              - Name: NewPanel
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Description: {"NamespaceIndex":5,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/Demonstration/UI/Panel/UserSecurity/LoginForm1"
-              - Name: AliasNode
-                Type: BaseDataVariableType
-                DataType: NodeId
-                Description: {"NamespaceIndex":5,"TextId":"ChangePanelAliasNodeDescription"}
-                ValueRank: ScalarOrOneDimension
-        - Name: EventArguments
-          Type: MouseClickEvent
-          Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-      - Name: BackgroundColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-    - Name: UserText
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Children:
-        - Name: ExpressionEvaluator1
-          Type: ExpressionEvaluator
-          Children:
-          - Name: Expression
-            Type: BaseDataVariableType
-            DataType: String
-            ReferenceType: HasParameter
-            ModellingRule: Optional
-            Value: "UserKey"
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -187.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 30.0
-    - Name: CurrentUser
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{Session}/User@BrowseName"
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 16.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 140.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: TextHorizontalAlignment
-        Type: BaseVariableType
-        DataType: TextHorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: WordWrap
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-      - Name: TextVerticalAlignment
-        Type: BaseVariableType
-        DataType: TextVerticalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "Default"
-    - Name: UserSymbol
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-      Children:
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#d1d3d4"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 14.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 18.0
-      - Name: shape
-        Type: Image
-        Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/LoggedOut_shape.svg"
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#d1d3d4"
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../FillColor"
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 14.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 18.0
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 14.0
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 18.0
-      - Name: ns=7;LibraryReference
-        Type: ObjectLibraryReference
-        DataType: ObjectLibraryReferenceDataType
-        ModellingRule: None
-        Value: 
-         {
-          "TypeId": {
-           "Id": 72,
-           "Namespace": 7
-          },
-          "Body": {
-           "libraryGuid": "0ca614251918448aa5b9a51295fabd47",
-           "objectGuid": "271438c6fa83d3f3a3d611d680e69322",
-           "objectVersion": 1,
-           "highestIgnoredVersion": 0
-          }
-         }
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -211.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
   - Name: NavigationPanel1
     Type: NavigationPanel
     Children:
@@ -699,7 +261,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"PLC"}
+          Value: {"LocaleId":"en-US","Text":"Network"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -720,7 +282,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Dobot"}
+          Value: {"LocaleId":"en-US","Text":"Production"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -741,6 +303,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"RecipeControllerRecipe"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -756,6 +319,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"Alarms"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -771,6 +335,7 @@ Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"Settings"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -780,31 +345,17 @@ Children:
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: Parameters
+      - Name: Plant
         Type: NavigationPanelItem
         Children:
         - Name: Title
           Type: BaseDataVariableType
           DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"Plant"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
           Value: "/Objects/Demonstration/UI/Panel/Plant"
-          Children:
-          - Name: Kind
-            Type: PropertyType
-            DataType: NodeId
-            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
-      - Name: Diagnostics
-        Type: NavigationPanelItem
-        Children:
-        - Name: Title
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-        - Name: Panel
-          Type: NodePointer
-          DataType: NodeId
-          Value: "/Objects/Demonstration/UI/Panel/Report"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -817,6 +368,22 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           Value: {"NamespaceIndex":18,"TextId":"Report"}
+        - Name: Panel
+          Type: NodePointer
+          DataType: NodeId
+          Value: "/Objects/Demonstration/UI/Panel/Report"
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+      - Name: Manual
+        Type: NavigationPanelItem
+        Children:
+        - Name: Title
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":18,"TextId":"Manual"}
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
@@ -868,7 +435,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 110.0
+      Value: 770.0
     - Name: Style
       Type: BaseDataVariableType
       DataType: String
@@ -896,6 +463,10 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "..@NodeId"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
   - Name: Footer
     Type: RowLayout
     Children:
@@ -917,7 +488,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 549.0
+      Value: 550.0
     - Name: GoToPLC
       Type: Button
       Children:
@@ -925,7 +496,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"PLC"}
+        Value: {"LocaleId":"en-US","Text":"Network"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1105,147 +676,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            ModellingRule: None
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-            - Name: Pair1
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-            - Name: Pair2
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              ModellingRule: None
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                ModellingRule: None
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                ModellingRule: None
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -1514,10 +944,21 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/ComputerOff.svg"
-      - Name: LeftMargin
-        Type: BaseVariableType
+      - Name: FontSize
+        Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 14.0
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -1529,7 +970,7 @@ Children:
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Dobot"}
+        Value: {"LocaleId":"en-US","Text":"Production"}
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -1855,120 +1296,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -2092,6 +1419,25 @@ Children:
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 Value: 400
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: GoToRecipe
       Type: Button
       Children:
@@ -2278,120 +1624,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -2632,6 +1864,25 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: GoToAlarms
       Type: Button
       Children:
@@ -2818,120 +2069,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -3172,10 +2309,21 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/AlarmOff.svg"
-      - Name: LeftMargin
-        Type: BaseVariableType
+      - Name: FontSize
+        Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -3367,133 +2515,11 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: Optional
         Value: "Transparent"
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
       - Name: FontWeight
         Type: BaseDataVariableType
         DataType: FontWeightEnum
@@ -3729,6 +2755,25 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: GoToPlant
       Type: Button
       Children:
@@ -3916,120 +2961,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -4270,10 +3201,21 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/FactoryOff.svg"
-      - Name: LeftMargin
-        Type: BaseVariableType
+      - Name: FontSize
+        Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -4465,120 +3407,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -4819,10 +3647,21 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
-      - Name: LeftMargin
-        Type: BaseVariableType
+      - Name: FontSize
+        Type: BaseDataVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -5014,120 +3853,6 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#e4e4e4"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "/Objects/Demonstration/Model/ScreenNo"
-          - Name: ns=3;Pairs
-            Type: BaseObjectType
-            Children:
-            - Name: Pair
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair1
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 1
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair2
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 2
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair3
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 3
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair4
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 4
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair5
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 5
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair6
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 6
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair7
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 7
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#e4e4e4"
-            - Name: Pair8
-              Type: ValueMapPair
-              Children:
-              - Name: Key
-                Type: BaseDataVariableType
-                DataType: UInt16
-                Value: 8
-              - Name: Value
-                Type: BaseDataVariableType
-                DataType: Color
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -5251,14 +3976,6 @@ Children:
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
                 Value: 700
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
       - Name: ImagePath
         Type: BaseDataVariableType
         DataType: ResourceUri
@@ -5376,6 +4093,25 @@ Children:
                 Type: BaseDataVariableType
                 DataType: ResourceUri
                 Value: "ns=18;%PROJECTDIR%/res/ReportOn.svg"
+      - Name: FontSize
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 14.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -5384,6 +4120,21 @@ Children:
         Type: DynamicLink
         DataType: NodePath
         Value: "/Objects/Demonstration/NetLogic/DelayGrahicLoad/Output"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ContentAlignment
+      Type: BaseVariableType
+      DataType: ContentHorizontalAlignment
+      ModellingRule: Optional
+      Value: 1
   - Name: PanelLoader1
     Type: PanelLoader
     Children:
@@ -5436,6 +4187,110 @@ Children:
       Type: BaseDataVariableType
       DataType: PanelLoaderAnimationTypeEnum
       ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+  - Name: Header
+    Type: RowLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 800.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: ContentAlignment
+      Type: BaseVariableType
+      DataType: ContentHorizontalAlignment
+      ModellingRule: Optional
+    - Name: Wrap
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 550.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: Logo
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/CTmaliTP.png"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 226.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
 - File: Screens/Screens.yaml
 - File: SettingsWidgets/SettingsWidgets.yaml
 - File: Panel/Panel.yaml
