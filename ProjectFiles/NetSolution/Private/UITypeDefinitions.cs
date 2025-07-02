@@ -10,6 +10,11 @@ public class MainWindow : FTOptix.UI.Window
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "eccea47e1eadb721a5c93607b841dabc")]
+public class MonoValveVertical : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "b85b1b61f5ff9da80d213a5ab0862e37")]
 public class Plant : FTOptix.UI.Panel
 {
@@ -100,6 +105,16 @@ public class TankStorage : FTOptix.UI.Panel
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "30c930aa9546cb2c24cc76dd6ecde64f")]
+public class MixingTank : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "e0de0030c596e1d41876d3f288a31387")]
+public class MonoValveHorizontal : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "c05a81edcb91fa074772f19543ea1b38")]
 public class AcceptDenyIncomingRequestPanel : FTOptix.UI.Panel
 {
@@ -182,5 +197,10 @@ public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
 
 [MapType(NamespaceUri = "Demonstration", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
 public class LoginChangePasswordForm : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "ce924a1d8828e46e6d3b2be12228f5a3")]
+public class FqMotor : FTOptix.UI.Panel
 {
 }

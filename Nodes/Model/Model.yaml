@@ -44,3 +44,14 @@ Children:
     - Name: Description
       Type: BaseDataVariableType
       DataType: LocalizedText
+- Name: MonoValveState
+  Id: g=9a84ac448f02030462fd420aaac80beb
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: FqMotorState
+  Id: g=07685d8870fa53c00d826b4bc631b43c
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: FqMotorSetpoint
+  Type: BaseDataVariableType
+  DataType: Int16
