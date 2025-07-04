@@ -8,25 +8,27 @@ Children:
   - Name: WaterWeight
     Type: BaseDataVariableType
     DataType: Float
-    Value: 12.0
+    Value: 101.0
   - Name: SyrupWeight
     Type: BaseDataVariableType
     DataType: Float
-    Value: 45.0
+    Value: 52.0
   - Name: SugarWeight
     Type: BaseDataVariableType
     DataType: Float
-    Value: 78.0
+    Value: 70.0
   - Name: MixingSpeed
     Type: BaseDataVariableType
     DataType: Int16
+    Value: 75
   - Name: MixingTime
     Type: BaseDataVariableType
     DataType: Int16
+    Value: 60
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
-    Value: "0"
+    Value: "Product#123"
 - Name: ReportData
   Id: g=2328426b2bf7c57bc5627326b362d4f3
   Supertype: BaseObjectType

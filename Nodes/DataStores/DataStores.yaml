@@ -19,6 +19,7 @@ Children:
   - Name: SFEnabled
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: SFBufferMaxSize
     Type: BaseDataVariableType
     DataType: UInt32

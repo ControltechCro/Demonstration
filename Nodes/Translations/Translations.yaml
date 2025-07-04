@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [150,4],
+    "Dimensions": [154,4],
     "Body": [
      "","en-US","hr-HR","bs-BA",
      "Reboot","Reboot","Reboot","",
@@ -80,7 +80,7 @@ Children:
      "LoginFormPasswordExpired","Password expired","Password expired","",
      "Login","Login","Login","",
      "New password","New password","New password","",
-     "Password","Password","Password","",
+     "Password","Password","Zaporka","",
      "Confirm password","Confirm password","Confirm password","",
      "Change password","Change password","Change password","",
      "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","Your password is expired.\nPlease enter a new one.","",
@@ -133,7 +133,7 @@ Children:
      "PLC","PLC","PLC","",
      "PopUp 2","PopUp 2","PopUp 2","",
      "Processed State:","Processed State:","Obrađeno stanje:","",
-     "RecipeButtonText","RecipeEng","ReceptiHrv","ReceptiBiH",
+     "RecipeButtonText","Recipe","Recepti","Recepti",
      "Report","Report","Izvještaj","",
      "Settings","Settings","Postavke","",
      "Siemens","Siemens","Siemens","",
@@ -160,6 +160,10 @@ Children:
      "RecipesEditorNotSet","is not set","","",
      "RecipesEditorStore","Store","","",
      "RecipesEditorNotFound","not found","","",
-     "RecipesEditorEditModelOfSchema","EditModel of schema","",""
+     "RecipesEditorEditModelOfSchema","EditModel of schema","","",
+     "Var","VariableEng","VarijablaCro","VarijablaBIH",
+     "var","var","","",
+     "Production","Production","Proizvodnja","",
+     "Network","Network","Mreža",""
     ]
    }

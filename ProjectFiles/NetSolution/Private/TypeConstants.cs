@@ -11,7 +11,6 @@ namespace Demonstration
     {
         private static readonly int namespaceIndex = NamespaceMapProvider.GetNamespaceIndex("Demonstration");
         public static readonly NodeId MainWindow = new NodeId(namespaceIndex, new Guid("01a7e8933afd7c95fe894b0859308138"));
-        public static readonly NodeId MonoValveVertical = new NodeId(namespaceIndex, new Guid("eccea47e1eadb721a5c93607b841dabc"));
         public static readonly NodeId Plant = new NodeId(namespaceIndex, new Guid("b85b1b61f5ff9da80d213a5ab0862e37"));
         public static readonly NodeId Recipe = new NodeId(namespaceIndex, new Guid("a9d0ace2794bbbc7ed68171ce3ab6f55"));
         public static readonly NodeId Configuration = new NodeId(namespaceIndex, new Guid("9cf154c923572624320f16c16fa657a3"));
@@ -31,7 +30,8 @@ namespace Demonstration
         public static readonly NodeId LoginForm = new NodeId(namespaceIndex, new Guid("d0fba00ff93f064d6e1cb546eea27209"));
         public static readonly NodeId TankStorage = new NodeId(namespaceIndex, new Guid("a897ba0fc448d2db790166dd674db06a"));
         public static readonly NodeId MixingTank = new NodeId(namespaceIndex, new Guid("30c930aa9546cb2c24cc76dd6ecde64f"));
-        public static readonly NodeId MonoValveHorizontal = new NodeId(namespaceIndex, new Guid("e0de0030c596e1d41876d3f288a31387"));
+        public static readonly NodeId MonoValve = new NodeId(namespaceIndex, new Guid("e0de0030c596e1d41876d3f288a31387"));
+        public static readonly NodeId FqMotor = new NodeId(namespaceIndex, new Guid("ce924a1d8828e46e6d3b2be12228f5a3"));
         public static readonly NodeId AcceptDenyIncomingRequestPanel = new NodeId(namespaceIndex, new Guid("c05a81edcb91fa074772f19543ea1b38"));
         public static readonly NodeId DI_Config2 = new NodeId(namespaceIndex, new Guid("26c35a6e58328644d9c09808c2b4d582"));
         public static readonly NodeId Logout = new NodeId(namespaceIndex, new Guid("2eebfd3def044e747aa57952fc13c70d"));
@@ -51,7 +51,6 @@ namespace Demonstration
         public static readonly NodeId EmptyPanel = new NodeId(namespaceIndex, new Guid("323ecbd80fe0dccc66307959b261f54a"));
         public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));
         public static readonly NodeId LoginChangePasswordForm = new NodeId(namespaceIndex, new Guid("fc0d46c3cf6fc6f7faace8fa13bde2b5"));
-        public static readonly NodeId FqMotor = new NodeId(namespaceIndex, new Guid("ce924a1d8828e46e6d3b2be12228f5a3"));
     }
 
     public static class VariableTypes

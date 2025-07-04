@@ -43,3 +43,5 @@ Children:
   - Name: Output
     Type: BaseDataVariableType
     DataType: Boolean
+- Name: SendEmail
+  Type: NetLogic
