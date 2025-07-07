@@ -403,7 +403,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Water Weight"}
+            Value: {"NamespaceIndex":18,"TextId":"Water Weight"}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -455,7 +455,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Syrup Weight"}
+            Value: {"NamespaceIndex":18,"TextId":"Syrup Weight"}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -507,7 +507,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Sugar Weight"}
+            Value: {"NamespaceIndex":18,"TextId":"Sugar Weight"}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -559,7 +559,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Mixing Speed"}
+            Value: {"NamespaceIndex":18,"TextId":"Mixing Speed"}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
@@ -610,7 +610,7 @@ Children:
           - Name: Title
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Mixing Time"}
+            Value: {"NamespaceIndex":18,"TextId":"Mixing Time"}
           - Name: Visible
             Type: BaseDataVariableType
             DataType: Boolean
