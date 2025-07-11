@@ -3914,7 +3914,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 3
+      Value: 1
     - Name: ContentAlignment
       Type: BaseVariableType
       DataType: ContentHorizontalAlignment

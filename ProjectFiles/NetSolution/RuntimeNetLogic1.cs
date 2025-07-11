@@ -26,7 +26,7 @@ using FTOptix.UI;
 using FTOptix.Core;
 #endregion
 
-public class SendEmail : BaseNetLogic
+public class RuntimeNetLogic1 : BaseNetLogic
 {
     public override void Start()
     {
