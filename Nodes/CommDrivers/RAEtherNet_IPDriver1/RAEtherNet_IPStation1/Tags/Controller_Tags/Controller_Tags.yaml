@@ -54,3 +54,12 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "AlarmWord"
+- Name: GenerateAlarm
+  Id: g=0e79cb23bb9c3517ca7dd0a9783f89da
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "GenerateAlarm"
