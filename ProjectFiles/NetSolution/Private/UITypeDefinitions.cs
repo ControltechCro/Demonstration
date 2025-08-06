@@ -30,6 +30,11 @@ public class DateAndTimeWidget : FTOptix.UI.Screen
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "1ead3f247fccea9e058749e6dcb2bc5c")]
+public class MotorStatus : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "ce814fddddd607c776a3b9a6e0b90c27")]
 public class Login : FTOptix.UI.Panel
 {
@@ -125,6 +130,16 @@ public class DI_Config2 : FTOptix.UI.Dialog
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "548a589cc1532b072d9d24316f7b6090")]
+public class Product_Information : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "a614487da8fe5a9d6dcd8a6eca671f80")]
+public class MotorPopup : FTOptix.UI.Dialog
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "2eebfd3def044e747aa57952fc13c70d")]
 public class Logout : FTOptix.UI.Panel
 {
@@ -145,6 +160,16 @@ public class LoginForm1 : LoginForm
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "21dde3a227b3fd6bae337633e296286c")]
+public class MotorHome : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "59994c979a1c71c98248e0be271372c7")]
+public class MotorParam : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "41f433c486aa6dfdb14c2c47570eea1a")]
 public class LAN : FTOptix.UI.Panel
 {
@@ -152,11 +177,6 @@ public class LAN : FTOptix.UI.Panel
 
 [MapType(NamespaceUri = "Demonstration", Guid = "d17d8ab3d7f8047c35a02cbe0b7248c6")]
 public class WAN : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "Demonstration", Guid = "548a589cc1532b072d9d24316f7b6090")]
-public class Product_Information : FTOptix.UI.Panel
 {
 }
 
@@ -197,5 +217,10 @@ public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
 
 [MapType(NamespaceUri = "Demonstration", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
 public class LoginChangePasswordForm : FTOptix.UI.Panel
+{
+}
+
+[MapType(NamespaceUri = "Demonstration", Guid = "d064cb442d13b6ee6d16682f0f1ae786")]
+public class MotorAlarm : FTOptix.UI.Panel
 {
 }

@@ -43,5 +43,3 @@ Children:
   - Name: Output
     Type: BaseDataVariableType
     DataType: Boolean
-- Name: RuntimeNetLogic1
-  Type: NetLogic

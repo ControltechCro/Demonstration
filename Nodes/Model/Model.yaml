@@ -51,3 +51,7 @@ Children:
 - Name: FqMotorSetpoint
   Type: BaseDataVariableType
   DataType: Int16
+- Name: MotorPopupIndex
+  Id: g=f6690d1e3d170df403ed09f104e79dd2
+  Type: BaseDataVariableType
+  DataType: Int32
