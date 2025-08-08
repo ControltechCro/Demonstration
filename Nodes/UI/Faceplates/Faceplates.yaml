@@ -23,6 +23,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 1.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -51,6 +52,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#6a6a6a"
   - Name: Rectangle1
     Type: Rectangle
     Children:
@@ -122,6 +128,12 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
+      Value: "#6a6a6a"
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
   - Name: Status
     Type: Alias
     DataType: Boolean

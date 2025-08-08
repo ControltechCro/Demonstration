@@ -309,6 +309,10 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#6a6a6a"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
   - Name: Rectangle3
     Type: Rectangle
     Children:
@@ -835,6 +839,10 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 20.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
   - Name: Rectangle5
     Type: Rectangle
     Children:

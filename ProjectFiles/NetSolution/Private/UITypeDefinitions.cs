@@ -30,13 +30,13 @@ public class DateAndTimeWidget : FTOptix.UI.Screen
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "1ead3f247fccea9e058749e6dcb2bc5c")]
-public class MotorStatus : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "ce814fddddd607c776a3b9a6e0b90c27")]
+public class Login : FTOptix.UI.Panel
 {
 }
 
-[MapType(NamespaceUri = "Demonstration", Guid = "ce814fddddd607c776a3b9a6e0b90c27")]
-public class Login : FTOptix.UI.Panel
+[MapType(NamespaceUri = "Demonstration", Guid = "1ead3f247fccea9e058749e6dcb2bc5c")]
+public class MotorStatus : FTOptix.UI.Panel
 {
 }
 
@@ -170,6 +170,11 @@ public class MotorParam : FTOptix.UI.Panel
 {
 }
 
+[MapType(NamespaceUri = "Demonstration", Guid = "d064cb442d13b6ee6d16682f0f1ae786")]
+public class MotorAlarm : FTOptix.UI.Panel
+{
+}
+
 [MapType(NamespaceUri = "Demonstration", Guid = "41f433c486aa6dfdb14c2c47570eea1a")]
 public class LAN : FTOptix.UI.Panel
 {
@@ -217,10 +222,5 @@ public class LoginPasswordExpiredDialog : FTOptix.UI.Dialog
 
 [MapType(NamespaceUri = "Demonstration", Guid = "fc0d46c3cf6fc6f7faace8fa13bde2b5")]
 public class LoginChangePasswordForm : FTOptix.UI.Panel
-{
-}
-
-[MapType(NamespaceUri = "Demonstration", Guid = "d064cb442d13b6ee6d16682f0f1ae786")]
-public class MotorAlarm : FTOptix.UI.Panel
 {
 }
