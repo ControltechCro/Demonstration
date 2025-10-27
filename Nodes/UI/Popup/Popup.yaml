@@ -2848,7 +2848,7 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       ModellingRule: Optional
-      Value: "ns=18;%PROJECTDIR%/res/data-transfer-both-svgrepo-com.svg"
+      Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
     - Name: ImagePosition
       Type: BaseDataVariableType
       DataType: ButtonImagePosition
@@ -3035,7 +3035,7 @@ Children:
       Type: BaseDataVariableType
       DataType: ResourceUri
       ModellingRule: Optional
-      Value: "ns=18;%PROJECTDIR%/res/Alarms/Icons/Alarms_Icons_Normal_Unacked_Unconfirmed.svg"
+      Value: "ns=18;%PROJECTDIR%/res/Alarm.svg"
     - Name: ImagePosition
       Type: BaseDataVariableType
       DataType: ButtonImagePosition

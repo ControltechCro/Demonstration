@@ -74,6 +74,14 @@ Children:
       }
      }
     Children:
+    - Name: Clock_5Hz
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Tags.Table.Clock_5Hz"
     - Name: Clock_1Hz
       Type: S7TiaProfinetTag
       DataType: Boolean

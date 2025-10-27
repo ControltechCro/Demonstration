@@ -3,3 +3,4 @@ Type: CommDriversCategoryFolder
 Children:
 - File: RAEtherNet_IPDriver1/RAEtherNet_IPDriver1.yaml
 - File: S7TIAPROFINETDriver1/S7TIAPROFINETDriver1.yaml
+- File: S7TIAPROFINETDriver2/S7TIAPROFINETDriver2.yaml

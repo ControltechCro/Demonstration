@@ -477,3 +477,117 @@ Children:
   - Class: Reference
     Target: ns=29;i=59
     Direction: Forward
+- Name: EmbeddedDatabase1
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: SQLiteStoreTable1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=29;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=29;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Column1
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column2
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column3
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column4
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column5
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column6
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: Column7
+          Type: StoreColumn
+          DataType: BaseDataType
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1504774371
+  - Class: Reference
+    Target: ns=43;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=43;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=29;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=29;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: InMemory
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
