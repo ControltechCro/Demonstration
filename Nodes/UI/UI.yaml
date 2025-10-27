@@ -203,7 +203,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
 - Name: WebPresentationEngine
-  Type: ns=37;PresentationEngine
+  Type: ns=45;PresentationEngine
   Children:
   - Name: Protocol
     Type: BaseDataVariableType
@@ -211,11 +211,11 @@ Children:
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
-    Value: "192.168.1.53"
+    Value: "192.168.1.200"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 844
+    Value: 80
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -331,11 +331,7 @@ Children:
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 3
-  - Name: DynamicVariablesPollingTime
-    Type: BaseDataVariableType
-    DataType: Duration
-    Value: "0:00:00:00.1000000"
+    Value: 2
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   ReferenceType: HasOrderedComponent

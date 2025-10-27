@@ -137,14 +137,6 @@ Project:
    Uri: 'urn:FTOptix:InfluxDBStore:Net'
    Module: FTOptix.InfluxDBStore.Net
    Version: 1.0
-  37:
-   Uri: 'urn:FTOptix:WebUI'
-   Module: FTOptix.WebUI
-   Version: 1.2
-  38:
-   Uri: 'urn:FTOptix:WebUI:Net'
-   Module: FTOptix.WebUI.Net
-   Version: 1.2
   39:
    Uri: 'urn:FTOptix:InfluxDBStoreRemote'
    Module: FTOptix.InfluxDBStoreRemote
@@ -169,11 +161,19 @@ Project:
    Uri: 'urn:FTOptix:SQLiteStore:Net'
    Module: FTOptix.SQLiteStore.Net
    Version: 1.0
+  45:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  46:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
  Statistics:
-  TotalNodeCount: 11170
+  TotalNodeCount: 11169
   Objects: 2158
   ObjectTypes: 46
-  Variables: 8922
+  Variables: 8921
   VariableTypes: 1
   DataTypes: 1
   Methods: 42
