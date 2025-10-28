@@ -65,7 +65,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../UI/SettingsWidgets/ClockLogic/UTCTime"
+            Value: "../../../../../../NetLogic/ClockLogic/UTCTime"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -78,7 +78,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../UI/SettingsWidgets/ClockLogic/Time"
+            Value: "../../../../../../NetLogic/ClockLogic/Time"
             Children:
             - Name: Mode
               Type: BaseVariableType

@@ -43,86 +43,22 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: -386.0
+      Value: -396.0
     - Name: VerticalAlignment
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 332.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 23.0
     - Name: CornerRadius
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
-    - Name: PolyLine1
-      Type: PolyLine
-      Children:
-      - Name: LineThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 3.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 85.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 7.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -220.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -119.0
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "M 0.000000 0.000000 L 90.000000 0.000000"
-      - Name: LineColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -162,7 +98,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -220,11 +156,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -349,11 +286,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force01
     Type: Button
     Children:
@@ -370,7 +302,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -429,11 +361,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -559,11 +492,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force02
     Type: Button
     Children:
@@ -580,7 +508,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -639,11 +567,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -769,11 +698,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force03
     Type: Button
     Children:
@@ -790,7 +714,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -849,11 +773,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -979,11 +904,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force04
     Type: Button
     Children:
@@ -1000,7 +920,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -1059,11 +979,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1193,11 +1114,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force05
     Type: Button
     Children:
@@ -1214,7 +1130,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -1273,11 +1189,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1403,11 +1320,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force06
     Type: Button
     Children:
@@ -1424,7 +1336,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -1483,11 +1395,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1613,11 +1526,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
   - Name: Pb_Force07
     Type: Button
     Children:
@@ -1634,7 +1542,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -1693,11 +1601,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -1832,55 +1741,6 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 390.0
-  - Name: EditableLabel1
-    Type: EditableLabel
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"CompactLogix"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: -604.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 214.0
-    - Name: InputBoxStyle
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: Editable
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
   - Name: Rectangle2
     Type: Rectangle
     Children:
@@ -1903,77 +1763,17 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 336.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 23.0
     - Name: CornerRadius
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
-    - Name: PolyLine1
-      Type: PolyLine
-      Children:
-      - Name: LineThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 3.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 55.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 7.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -240.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -116.0
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "M 0.000000 0.000000 L 90.000000 0.000000"
-      - Name: LineColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#ffffff"
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-        Value: 2
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
@@ -1997,50 +1797,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-  - Name: EditableLabel2
-    Type: EditableLabel
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"NamespaceIndex":18,"TextId":"Siemens"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 158.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 218.0
-    - Name: InputBoxStyle
-      Type: BaseDataVariableType
-      DataType: String
-      ModellingRule: Optional
-      Value: "Default"
-    - Name: Editable
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
   - Name: Pb_Force1
     Type: Button
     Children:
@@ -2057,7 +1813,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -2116,16 +1872,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2271,7 +2023,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -2330,16 +2082,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2481,7 +2229,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -2540,16 +2288,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2691,7 +2435,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -2750,16 +2494,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -2901,7 +2641,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -2960,16 +2700,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -3111,7 +2847,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -3170,16 +2906,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -3321,7 +3053,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -3380,16 +3112,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -3531,7 +3259,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 40.0
+      Value: 50.0
     - Name: ImagePath
       Type: BaseDataVariableType
       DataType: ResourceUri
@@ -3590,16 +3318,12 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 380.0
+      Value: 1
     - Name: BottomMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 34.0
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -4441,7 +4165,6 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Color
-                Value: "#e4e4e4"
             - Name: Pair1
               Type: ValueMapPair
               Children:
@@ -4618,11 +4341,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: -380.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 300.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -4632,7 +4350,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -4641,6 +4359,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 102.0
   - Name: Image4
     Type: Image
     Children:
@@ -4723,7 +4442,6 @@ Children:
               - Name: Value
                 Type: BaseDataVariableType
                 DataType: Color
-                Value: "#e4e4e4"
             - Name: Pair1
               Type: ValueMapPair
               Children:
@@ -4901,11 +4619,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 410.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 290.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -4915,7 +4628,7 @@ Children:
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
-      Value: 2
+      Value: 1
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -4924,6 +4637,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 102.0
   - Name: Label3
     Type: Label
     Children:
@@ -4942,6 +4656,266 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 3.0
+  - Name: Rectangle6
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 53.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 3.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 346.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f0f0f0"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Demonstration/Model/BackgroundEnable"
+        - Name: ns=3;Pairs
+          Type: BaseObjectType
+          ModellingRule: None
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: None
+              Value: "#ffffff"
+          - Name: Pair1
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ModellingRule: None
+              Value: true
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              ModellingRule: None
+              Value: "#f0f0f0"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 138.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#f0f0f0"
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/Demonstration/Model/BackgroundEnable"
+        - Name: ns=3;Pairs
+          Type: BaseObjectType
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Boolean
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#ffffff"
+          - Name: Pair1
+            Type: ValueMapPair
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#f0f0f0"
+  - Name: EditableLabel2
+    Type: EditableLabel
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":18,"TextId":"Siemens"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: InputBoxStyle
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 133.0
+  - Name: Rectangle7
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 83.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 3.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -620.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 346.0
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 138.0
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#ffffff"
+  - Name: EditableLabel1
+    Type: EditableLabel
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"CompactLogix"}
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -620.0
+    - Name: InputBoxStyle
+      Type: BaseDataVariableType
+      DataType: String
+      ModellingRule: Optional
+      Value: "Default"
+    - Name: Editable
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 1
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 133.0
 - Name: Dobot
   Id: g=229683267164022ad24fa6f4e54b3f41
   Supertype: Panel
@@ -5126,306 +5100,6 @@ Children:
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
-  - Name: Valve1
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#ffffff"
-      Children:
-      - Name: KeyValueConverter1
-        Type: ValueMapConverter
-        Children:
-        - Name: Source
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Demonstration/Model/ScreenNo"
-        - Name: ns=3;Pairs
-          Type: BaseObjectType
-          Children:
-          - Name: Pair
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair1
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 1
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#f88d24"
-          - Name: Pair2
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 2
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair3
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 3
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair4
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 4
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair5
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 5
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair6
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 6
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair7
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 7
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair8
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 8
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#010101"
-      Children:
-      - Name: KeyValueConverter1
-        Type: ValueMapConverter
-        Children:
-        - Name: Source
-          Type: BaseDataVariableType
-          DataType: BaseDataType
-          ReferenceType: HasSource
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "/Objects/Demonstration/Model/ScreenNo"
-        - Name: ns=3;Pairs
-          Type: BaseObjectType
-          Children:
-          - Name: Pair
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair1
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 1
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#f88d24"
-          - Name: Pair2
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 2
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair3
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 3
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair4
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 4
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair5
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 5
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair6
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 6
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair7
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 7
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-          - Name: Pair8
-            Type: ValueMapPair
-            Children:
-            - Name: Key
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Value: 8
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Color
-              Value: "#000000"
-    - Name: Valve_fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=18;%PROJECTDIR%/res/PLC.svg"
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#ffffff"
-        Children:
-        - Name: KeyValueConverter1
-          Type: ValueMapConverter
-          Children:
-          - Name: Source
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../../MonoValveState"
-    - Name: Valve_outline
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=18;%PROJECTDIR%/res/PLC.svg"
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#010101"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../BorderColor"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 355.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 335.0
 - Name: ns=18;Recipe
   Id: g=a9d0ace2794bbbc7ed68171ce3ab6f55
   Supertype: Panel

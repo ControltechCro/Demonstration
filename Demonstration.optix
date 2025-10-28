@@ -37,14 +37,6 @@ Project:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
    Version: 4.9
-  9:
-   Uri: 'urn:FTOptix:NativeUI'
-   Module: FTOptix.NativeUI
-   Version: 3.1
-  10:
-   Uri: 'urn:FTOptix:NativeUI:Net'
-   Module: FTOptix.NativeUI.Net
-   Version: 1.0
   11:
    Uri: 'urn:FTOptix:SerialPort'
    Module: FTOptix.SerialPort
@@ -169,15 +161,23 @@ Project:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
    Version: 1.2
+  47:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 3.1
+  48:
+   Uri: 'urn:FTOptix:NativeUI:Net'
+   Module: FTOptix.NativeUI.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 11169
-  Objects: 2158
+  TotalNodeCount: 11141
+  Objects: 2145
   ObjectTypes: 46
-  Variables: 8921
+  Variables: 8906
   VariableTypes: 1
   DataTypes: 1
   Methods: 42
-  References: 202
+  References: 207
   ReferenceTypes: 0
   Files: 51
  Nodes:

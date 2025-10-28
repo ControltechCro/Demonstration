@@ -58,3 +58,4 @@ Children:
 - Name: BackgroundEnable
   Type: BaseDataVariableType
   DataType: Boolean
+  Value: true

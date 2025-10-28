@@ -112,7 +112,6 @@ Children:
             - Name: Value
               Type: BaseDataVariableType
               DataType: Color
-              Value: "#e4e4e4"
           - Name: Pair1
             Type: ValueMapPair
             Children:
