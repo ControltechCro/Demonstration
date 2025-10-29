@@ -7,6 +7,31 @@ Children:
   Children:
   - Name: NetworkInterfaces
     Type: BaseObjectType
+    Children:
+    - Name: NetworkInterface1
+      Type: NetworkInterface
+      Children:
+      - Name: DHCPClientEnabled
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+      - Name: IPAddress
+        Type: MaskedIPAddress
+        DataType: String
+        Children:
+        - Name: Mask
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "255.255.0.0"
+      - Name: DNS1
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: DNS2
+        Type: BaseDataVariableType
+        DataType: String
+      - Name: DefaultGateway
+        Type: BaseDataVariableType
+        DataType: String
   - Name: DateAndTime
     Type: PropertyGroup
     Children:

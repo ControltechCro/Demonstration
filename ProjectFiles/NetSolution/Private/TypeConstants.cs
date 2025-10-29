@@ -52,6 +52,7 @@ namespace Demonstration
         public static readonly NodeId OAuth2Login = new NodeId(namespaceIndex, new Guid("68099af806a871bc69c6e167f51f9755"));
         public static readonly NodeId ConnectionPanel = new NodeId(namespaceIndex, new Guid("e348b14dbc7035688714c7ced8a72128"));
         public static readonly NodeId RequestAssistanceEnabledPanel = new NodeId(namespaceIndex, new Guid("dc2c41b238ed9ce9aa4f98d28d04b528"));
+        public static readonly NodeId CustomUISession = new NodeId(namespaceIndex, new Guid("6ea178ec475f216904d6b8ad82ab3fa8"));
         public static readonly NodeId RequestAssistanceDisabledPanel = new NodeId(namespaceIndex, new Guid("f0afd51b3f49febd40b32153974e81b8"));
         public static readonly NodeId EmptyPanel = new NodeId(namespaceIndex, new Guid("323ecbd80fe0dccc66307959b261f54a"));
         public static readonly NodeId LoginPasswordExpiredDialog = new NodeId(namespaceIndex, new Guid("53b1bd1b17b4de66926108a7dfdf143e"));

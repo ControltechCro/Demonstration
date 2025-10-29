@@ -343,7 +343,7 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
+        Value: "#3b3b3b"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -426,7 +426,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
+      Value: "#f0f0f0"
     - Name: Label1
       Type: Label
       Children:
@@ -454,7 +454,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#ffffff"
+        Value: "#000000"
   - Name: Rectangle1
     Type: Rectangle
     Children:
@@ -566,7 +566,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#6a6a6a"
+        Value: "#3b3b3b"
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -599,7 +599,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#6a6a6a"
+        Value: "#3b3b3b"
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -875,7 +875,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
+      Value: "#f0f0f0"
     - Name: Label1
       Type: Label
       Children:
@@ -903,7 +903,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
-        Value: "#ffffff"
+        Value: "#000000"
     - Name: Switch1
       Type: Switch
       Children:
@@ -931,6 +931,11 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 12.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#000000"
 - Name: MotorParam
   Id: g=59994c979a1c71c98248e0be271372c7
   Supertype: Panel

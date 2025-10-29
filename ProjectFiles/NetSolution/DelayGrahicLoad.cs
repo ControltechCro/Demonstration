@@ -27,6 +27,8 @@ using UAManagedCore;
 using FTOptix.InfluxDBStoreRemote;
 using FTOptix.DataLogger;
 using FTOptix.SQLiteStore;
+using FTOptix.MQTTClient;
+using FTOptix.MQTTBroker;
 #endregion
 
 public class DelayGrahicLoad : BaseNetLogic

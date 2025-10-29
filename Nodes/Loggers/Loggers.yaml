@@ -6,7 +6,7 @@ Children:
   Children:
   - Name: SamplingMode
     Type: PropertyType
-    DataType: SamplingModeEnum
+    DataType: ns=41;SamplingModeEnum
     Value: 2
   - Name: Store
     Type: NodePointer

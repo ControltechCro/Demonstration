@@ -18,6 +18,8 @@ using FTOptix.InfluxDBStore;
 using FTOptix.WebUI;
 using FTOptix.InfluxDBStoreRemote;
 using FTOptix.DataLogger;
+using FTOptix.MQTTClient;
+using FTOptix.MQTTBroker;
 #endregion
 
 public class NetworkConfiguratorEditModelsLogic : BaseNetLogic

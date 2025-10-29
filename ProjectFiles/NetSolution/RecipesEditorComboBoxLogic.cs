@@ -12,6 +12,8 @@ using FTOptix.Core;
 using FTOptix.CoreBase;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
+using FTOptix.MQTTClient;
+using FTOptix.MQTTBroker;
 #endregion
 
 public class RecipesEditorComboBoxLogic : BaseNetLogic

@@ -1,0 +1,321 @@
+Name: MQTT
+Type: MQTTCategoryFolder
+Children:
+- Name: Mosquitto_MQTTClient
+  Type: MQTTClient
+  Children:
+  - Name: BrokerAddress
+    Type: PropertyType
+    DataType: String
+    Value: "test.mosquitto.org"
+  - Name: BrokerPort
+    Type: PropertyType
+    DataType: UInt16
+    Value: 8883
+  - Name: ClientId
+    Type: PropertyType
+    DataType: String
+    Value: "FTOptix-1"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: StatusEnum
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: UserIdentityType
+    Type: BaseDataVariableType
+    DataType: UserIdentityTypeEnum
+  - Name: SSLTLSEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: ValidateBrokerCertificate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Reference
+    Target: ns=49;i=12
+    Direction: Forward
+  - Class: Reference
+    Target: ns=49;i=44
+    Direction: Forward
+  - Name: MQTTSubscriber
+    Type: MQTTSubscriber
+    Children:
+    - Name: Subscriptions
+      Type: BaseObjectType
+      Children:
+      - Name: PlainTextSubscription1
+        Type: SubscriptionPlainText
+        ReferenceType: HasOrderedComponent
+        Children:
+        - Name: Variable
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"9fc71b3395a92f42ac0955548e7b244f","Namespace":18}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType"
+        - Name: Topic
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "/Demonstration/Chat"
+        - Name: QoS
+          Type: BaseDataVariableType
+          DataType: QoSLevelEnum
+          Value: 1
+    - Class: Reference
+      Target: ns=49;i=47
+      Direction: Forward
+  - Name: MQTTPublisher
+    Type: MQTTPublisher
+    Children:
+    - Name: SamplingMode
+      Type: PropertyType
+      DataType: ns=49;SamplingModeEnum
+    - Name: Folder
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+    - Name: Topic
+      Type: BaseDataVariableType
+      DataType: String
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../MQTTSubscriber/Subscriptions/PlainTextSubscription1/Topic"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: QoS
+      Type: BaseDataVariableType
+      DataType: QoSLevelEnum
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../MQTTSubscriber/Subscriptions/PlainTextSubscription1/QoS"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Retain
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: PFEnabled
+      Type: PropertyType
+      DataType: Boolean
+    - Name: PayloadUpdateTimestamp
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      AccessLevel: Read
+    - Name: Item
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+- Name: Optix_MQTTBroker
+  Type: MQTTBroker
+  Children:
+  - Name: ListenerPort
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 8883
+  - Name: MaxConnections
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 25
+  - Name: MaxQoS
+    Type: BaseDataVariableType
+    DataType: MaxQoSEnum
+    Value: 2
+  - Name: MaxInflightMessages
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 20
+  - Name: MaxQueuedMessages
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: MessageSizeLimit
+    Type: BaseDataVariableType
+    DataType: UInt32
+  - Name: RetainAvailable
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: DataPersistence
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: PersistentClientExpiration
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: AutosaveOnChanges
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: AutosaveInterval
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 20
+  - Name: AnonymousAuthentication
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: RequireClientCertificate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: CACertificateFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: CertificateFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: CertificateKeyFile
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: Running
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+- Name: Optix_MQTTClient
+  Type: MQTTClient
+  Children:
+  - Name: BrokerAddress
+    Type: PropertyType
+    DataType: String
+    Value: "localhost"
+  - Name: BrokerPort
+    Type: PropertyType
+    DataType: UInt16
+    Value: 8883
+  - Name: ClientId
+    Type: PropertyType
+    DataType: String
+    Value: "FTOptix-Variables"
+  - Name: Status
+    Type: BaseDataVariableType
+    DataType: StatusEnum
+    ReferenceType: HasProperty
+    AccessLevel: Read
+  - Name: UserIdentityType
+    Type: BaseDataVariableType
+    DataType: UserIdentityTypeEnum
+  - Name: SSLTLSEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ValidateBrokerCertificate
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Class: Reference
+    Target: ns=49;i=12
+    Direction: Forward
+  - Class: Reference
+    Target: ns=49;i=44
+    Direction: Forward
+  - Name: MQTTPublisher
+    Type: MQTTPublisher
+    Children:
+    - Name: SamplingMode
+      Type: PropertyType
+      DataType: ns=49;SamplingModeEnum
+      Value: 1
+    - Name: Folder
+      Type: NodePointer
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"201336ceef3e44a4992e10e802efb598","Namespace":18}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"d7c8387569c2b419f9da2b5c4457704e","Namespace":18}
+    - Name: Topic
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "/Demonstration/Variables"
+    - Name: QoS
+      Type: BaseDataVariableType
+      DataType: QoSLevelEnum
+      Value: 1
+    - Name: Retain
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: PFEnabled
+      Type: PropertyType
+      DataType: Boolean
+    - Name: PayloadUpdateTimestamp
+      Type: BaseDataVariableType
+      DataType: DateTime
+      ReferenceType: HasProperty
+      AccessLevel: Read
+    - Name: Item
+      Type: Alias
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"d7c8387569c2b419f9da2b5c4457704e","Namespace":18}
+    - Name: SamplingPeriod
+      Type: PropertyType
+      DataType: Duration
+      Value: "0:00:00:00.3330000"
+  - Name: MQTTSubscriber
+    Type: MQTTSubscriber
+    Children:
+    - Name: Subscriptions
+      Type: BaseObjectType
+      Children:
+      - Name: DefaultJSONSubscription1
+        Type: Subscription
+        ReferenceType: HasOrderedComponent
+        Children:
+        - Name: Folder
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":2,"Id":"e2ef067d12f76291381b21607f40b642","Namespace":18}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+        - Name: Topic
+          Type: BaseDataVariableType
+          DataType: String
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../MQTTPublisher/Topic"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: QoS
+          Type: BaseDataVariableType
+          DataType: QoSLevelEnum
+          Value: 1
+    - Class: Reference
+      Target: ns=49;i=47
+      Direction: Forward
+  - Name: Username
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "MQTTUser"
