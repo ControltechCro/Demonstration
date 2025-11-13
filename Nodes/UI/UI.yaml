@@ -130,7 +130,22 @@ Children:
   - Name: MaxNumberOfConnections
     Type: BaseDataVariableType
     DataType: UInt32
-    Value: 2
+    Value: 3
+  - Name: AllowedRemoteSources
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["https://www.rockwellautomation.com/","https://127.0.0.1/"]
+  - Name: Session
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/UI/CustomUISession"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   Children:
