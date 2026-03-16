@@ -205,7 +205,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
       - Name: EventArguments
         Type: MouseClickEvent
         Children:
@@ -410,7 +409,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 1
       - Name: EventArguments
         Type: MouseClickEvent
@@ -616,7 +614,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 2
       - Name: EventArguments
         Type: MouseClickEvent
@@ -822,7 +819,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 3
       - Name: EventArguments
         Type: MouseClickEvent
@@ -1028,7 +1024,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 4
       - Name: EventArguments
         Type: MouseClickEvent
@@ -1238,7 +1233,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 5
       - Name: EventArguments
         Type: MouseClickEvent
@@ -1444,7 +1438,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 6
       - Name: EventArguments
         Type: MouseClickEvent
@@ -1650,7 +1643,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 7
       - Name: EventArguments
         Type: MouseClickEvent
@@ -1921,7 +1913,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
       - Name: EventArguments
         Type: MouseClickEvent
         Children:
@@ -2131,7 +2122,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 1
       - Name: EventArguments
         Type: MouseClickEvent
@@ -2337,7 +2327,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 2
       - Name: EventArguments
         Type: MouseClickEvent
@@ -2543,7 +2532,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 3
       - Name: EventArguments
         Type: MouseClickEvent
@@ -2749,7 +2737,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 4
       - Name: EventArguments
         Type: MouseClickEvent
@@ -2955,7 +2942,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 5
       - Name: EventArguments
         Type: MouseClickEvent
@@ -3161,7 +3147,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 6
       - Name: EventArguments
         Type: MouseClickEvent
@@ -3367,7 +3352,6 @@ Children:
               Type: BaseDataVariableType
               DataType: UInt32
               Description: {"NamespaceIndex":3,"TextId":"ToggleBitBitIndexDescription"}
-              ValueRank: ScalarOrOneDimension
               Value: 7
       - Name: EventArguments
         Type: MouseClickEvent
@@ -6498,7 +6482,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+        Value: {"Id":2,"Namespace":31}
     - Name: GenerateTranslationKeys
       Type: BaseDataVariableType
       DataType: Boolean
@@ -6524,7 +6508,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+          Value: {"Id":2,"Namespace":31}
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
@@ -8911,7 +8895,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+        Value: {"Id":2,"Namespace":31}
     - Name: GenerateTranslationKeys
       Type: BaseDataVariableType
       DataType: Boolean
@@ -8937,7 +8921,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+          Value: {"Id":2,"Namespace":31}
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
@@ -11322,7 +11306,7 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
-        Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+        Value: {"Id":2,"Namespace":31}
     - Name: GenerateTranslationKeys
       Type: BaseDataVariableType
       DataType: Boolean
@@ -11348,7 +11332,7 @@ Children:
         - Name: Kind
           Type: PropertyType
           DataType: NodeId
-          Value: "/Types/ObjectTypes/BaseObjectType/RecipeSchema"
+          Value: {"Id":2,"Namespace":31}
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath

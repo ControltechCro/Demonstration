@@ -93,3 +93,5 @@ Children:
     DataType: NodeId
     Value: "/Objects/Demonstration/Recipes/RecipeSchema3/EditModel"
 - File: MQTT/MQTT.yaml
+- Name: RuntimeOptimization
+  Type: PropertyGroup

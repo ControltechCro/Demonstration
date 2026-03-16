@@ -2,41 +2,42 @@ Project:
  Name: Demonstration
  GUID: 4bb673369087bcce4f956296fbb5a03d
  ProjectNamespaceIndex: 18
+ DisplayName: ''
  Description: ''
  Company: ''
  Copyright: ''
  FormatVersion: 1
- ProductVersion: 1.6
- CoreVersion: 4.2
+ ProductVersion: 1.7
+ CoreVersion: 5.0
  Dependencies:
   2:
    Uri: 'urn:FTOptix:Core:Net'
    Module: FTOptix.Core.Net
-   Version: 2.2
+   Version: 3.0
   3:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 5.0
+   Version: 6.1
   4:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
-   Version: 2.0
+   Version: 2.1
   5:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
-   Version: 18.1
+   Version: 21.2
   6:
    Uri: 'urn:FTOptix:UI:Net'
    Module: FTOptix.UI.Net
-   Version: 18.1
+   Version: 21.2
   7:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 7.1
+   Version: 9.0
   8:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
-   Version: 4.9
+   Version: 5.0
   11:
    Uri: 'urn:FTOptix:SerialPort'
    Module: FTOptix.SerialPort
@@ -72,27 +73,27 @@ Project:
   20:
    Uri: 'urn:FTOptix:CommunicationDriver:Net'
    Module: FTOptix.CommunicationDriver.Net
-   Version: 3.0
+   Version: 4.0
   21:
    Uri: 'urn:FTOptix:S7TiaProfinet'
    Module: FTOptix.S7TiaProfinet
-   Version: 1.1
+   Version: 1.2
   22:
    Uri: 'urn:FTOptix:S7TiaProfinet:Net'
    Module: FTOptix.S7TiaProfinet.Net
-   Version: 1.1
+   Version: 1.2
   23:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
-   Version: 6.3
+   Version: 7.0
   24:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
-   Version: 2.2
+   Version: 3.2
   25:
    Uri: 'urn:FTOptix:Alarm'
    Module: FTOptix.Alarm
-   Version: 6.0
+   Version: 6.1
   26:
    Uri: 'urn:FTOptix:Alarm:Net'
    Module: FTOptix.Alarm.Net
@@ -108,7 +109,7 @@ Project:
   29:
    Uri: 'urn:FTOptix:Store'
    Module: FTOptix.Store
-   Version: 1.0
+   Version: 2.0
   30:
    Uri: 'urn:FTOptix:Store:Net'
    Module: FTOptix.Store.Net
@@ -156,27 +157,27 @@ Project:
   45:
    Uri: 'urn:FTOptix:WebUI'
    Module: FTOptix.WebUI
-   Version: 1.2
+   Version: 2.0
   46:
    Uri: 'urn:FTOptix:WebUI:Net'
    Module: FTOptix.WebUI.Net
-   Version: 1.2
+   Version: 2.0
   47:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI
-   Version: 3.1
+   Version: 3.3
   48:
    Uri: 'urn:FTOptix:NativeUI:Net'
    Module: FTOptix.NativeUI.Net
-   Version: 1.0
+   Version: 3.3
   49:
    Uri: 'urn:FTOptix:MQTTClient'
    Module: FTOptix.MQTTClient
-   Version: 3.0
+   Version: 7.0
   50:
    Uri: 'urn:FTOptix:MQTTClient:Net'
    Module: FTOptix.MQTTClient.Net
-   Version: 3.0
+   Version: 6.0
   51:
    Uri: 'urn:FTOptix:MQTTBroker'
    Module: FTOptix.MQTTBroker
@@ -186,14 +187,14 @@ Project:
    Module: FTOptix.MQTTBroker.Net
    Version: 6.0
  Statistics:
-  TotalNodeCount: 11253
-  Objects: 2161
+  TotalNodeCount: 11296
+  Objects: 2162
   ObjectTypes: 47
-  Variables: 9001
+  Variables: 9043
   VariableTypes: 1
   DataTypes: 1
   Methods: 42
-  References: 218
+  References: 226
   ReferenceTypes: 0
   Files: 52
  Nodes:

@@ -13,6 +13,13 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Local:1:O.Data"
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Local:1:O"
+  - Name: BlockRead
+    Type: BaseDataVariableType
+    DataType: Boolean
 - Name: HMI_Start
   Type: RAEtherNetIPTag
   DataType: Boolean

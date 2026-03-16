@@ -124,6 +124,17 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
@@ -146,6 +157,12 @@ Children:
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/SessionType/UISession"
+  - Name: AllowedLocalSources
+    Type: BaseDataVariableType
+    DataType: String
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["*"]
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   Children:
@@ -258,6 +275,17 @@ Children:
         Type: BaseVariableType
         DataType: Boolean
         AccessLevel: Read
+      - Class: Reference
+        Target: ns=1;i=324
+        Direction: Forward
+      - Name: BearerAccessToken
+        Type: BaseVariableType
+        DataType: String
+        AccessLevel: Read
+      - Name: ScaleFactor
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 1.0
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
@@ -353,6 +381,17 @@ Children:
   - Name: LastTabIndex
     Type: BaseDataVariableType
     DataType: Int32
+  - Class: Reference
+    Target: ns=1;i=324
+    Direction: Forward
+  - Name: BearerAccessToken
+    Type: BaseVariableType
+    DataType: String
+    AccessLevel: Read
+  - Name: ScaleFactor
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 1.0
 - Name: MainWindow
   Id: g=01a7e8933afd7c95fe894b0859308138
   Supertype: Window
@@ -402,7 +441,7 @@ Children:
       ModellingRule: Optional
     - Name: FillMode
       Type: BaseDataVariableType
-      DataType: FillModeEnum
+      DataType: ImageFillModeEnum
       ModellingRule: Optional
       Value: 1
     - Name: Visible
@@ -8700,7 +8739,7 @@ Children:
           Value: 50.0
         - Name: FillMode
           Type: BaseDataVariableType
-          DataType: FillModeEnum
+          DataType: ImageFillModeEnum
           ModellingRule: Optional
       - Name: LeftMargin
         Type: BaseVariableType

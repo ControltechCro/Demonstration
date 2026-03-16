@@ -65,7 +65,7 @@ Children:
         Value: 298.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
         Value: 1
       - Name: LeftMargin
@@ -1088,7 +1088,7 @@ Children:
         Value: 295.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
         Value: 1
       - Name: LeftMargin
@@ -1465,7 +1465,7 @@ Children:
         Value: 40.0
       - Name: FillMode
         Type: BaseDataVariableType
-        DataType: FillModeEnum
+        DataType: ImageFillModeEnum
         ModellingRule: Optional
         Value: 1
       - Name: Visible

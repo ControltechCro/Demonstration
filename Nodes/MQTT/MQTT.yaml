@@ -128,6 +128,57 @@ Children:
       - Name: Kind
         Type: PropertyType
         DataType: NodeId
+    - Name: DataSource
+      Type: BaseDataVariableType
+      DataType: DataSourceEnum
+    - Name: DataLogger
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/DataLogger"
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType/VariableToLog"
+    - Name: SFEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SFBufferMaxSize
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 1000
+    - Name: SFBufferOverwrite
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SFBufferUsage
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: SFBufferOverflow
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+  - Name: WillMessageEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: WillTopic
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: WillPayload
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: WillQoS
+    Type: BaseDataVariableType
+    DataType: QoSLevelEnum
+  - Name: WillRetain
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: WillDelayInterval
+    Type: BaseDataVariableType
+    DataType: Duration
 - Name: Optix_MQTTBroker
   Type: MQTTBroker
   Children:
@@ -276,6 +327,43 @@ Children:
       Type: PropertyType
       DataType: Duration
       Value: "0:00:00:00.3330000"
+    - Name: DataSource
+      Type: BaseDataVariableType
+      DataType: DataSourceEnum
+    - Name: DataLogger
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType/DataLogger"
+      - Name: ItemKind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/VariableTypes/BaseVariableType/BaseDataVariableType/VariableToLog"
+    - Name: PollingPeriod
+      Type: PropertyType
+      DataType: Duration
+      Value: "0:00:00:00.3330000"
+    - Name: SFEnabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SFBufferMaxSize
+      Type: BaseDataVariableType
+      DataType: UInt32
+      Value: 1000
+    - Name: SFBufferOverwrite
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: SFBufferUsage
+      Type: BaseDataVariableType
+      DataType: UInt32
+      AccessLevel: Read
+    - Name: SFBufferOverflow
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
   - Name: MQTTSubscriber
     Type: MQTTSubscriber
     Children:
@@ -319,3 +407,21 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "MQTTUser"
+  - Name: WillMessageEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: WillTopic
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: WillPayload
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: WillQoS
+    Type: BaseDataVariableType
+    DataType: QoSLevelEnum
+  - Name: WillRetain
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: WillDelayInterval
+    Type: BaseDataVariableType
+    DataType: Duration
