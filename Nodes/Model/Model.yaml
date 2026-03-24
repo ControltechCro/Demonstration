@@ -59,3 +59,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: true
+- Name: ConvertData
+  Type: BaseDataVariableType
+  DataType: Boolean

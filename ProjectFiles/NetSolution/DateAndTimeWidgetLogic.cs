@@ -23,6 +23,7 @@ using FTOptix.InfluxDBStoreRemote;
 using FTOptix.DataLogger;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
+using FTOptix.MicroController;
 #endregion
 
 public class DateAndTimeWidgetLogic : BaseNetLogic

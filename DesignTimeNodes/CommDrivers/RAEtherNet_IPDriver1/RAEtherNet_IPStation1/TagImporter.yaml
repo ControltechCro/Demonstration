@@ -14,5 +14,5 @@ Children:
   ArrayDimensions: [0]
 - Name: Mode
   Type: BaseDataVariableType
-  DataType: FetchModes
+  DataType: ns=21;FetchModes
   Value: 1

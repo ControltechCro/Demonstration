@@ -58,6 +58,31 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "PLC.Blocks.Data.Clock1Hz"
+    - Name: WriteToAB
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Data.WriteToAB"
+    - Name: ReadFromAB
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PLC.Blocks.Data.ReadFromAB"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../../RAMicroControllerDriver1/RAMicroControllerStation1/Tags/WriteToSiemens"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
   - Name: Table
     Type: TagStructure
     DataType: Structure

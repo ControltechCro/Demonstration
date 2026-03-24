@@ -36,17 +36,22 @@ Project:
    Uri: 'urn:FTOptix:S7TiaProfinetTagImporter'
    Module: FTOptix.S7TiaProfinetTagImporter
    Version: 1.0
+  23:
+   Uri: 'urn:FTOptix:MicroControllerTagImporter'
+   Module: FTOptix.MicroControllerTagImporter
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 8
-  Objects: 2
+  TotalNodeCount: 12
+  Objects: 3
   ObjectTypes: 0
-  Variables: 6
+  Variables: 9
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
   References: 0
   ReferenceTypes: 0
-  Files: 2
+  Files: 3
  Nodes:
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/TagImporter.yaml

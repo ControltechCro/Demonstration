@@ -28,6 +28,7 @@ using FTOptix.DataLogger;
 using FTOptix.SQLiteStore;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
+using FTOptix.MicroController;
 #endregion
 
 public class DigitalInputMux : BaseNetLogic

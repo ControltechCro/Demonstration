@@ -14,6 +14,7 @@ using System.Globalization;
 using FTOptix.Store;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
+using FTOptix.MicroController;
 
 #endregion
 

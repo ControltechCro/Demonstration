@@ -289,6 +289,7 @@ Children:
   - Name: VirtualKeyboard
     Type: BaseDataVariableType
     DataType: VirtualKeyboardEngineTypeEnum
+    Value: 1
   - Name: TextRenderType
     Type: BaseDataVariableType
     DataType: TextRenderTypeEnum
@@ -414,55 +415,6 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Demonstration@BrowseName"
-  - Name: Image1
-    Type: Image
-    Children:
-    - Name: Path
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=18;%PROJECTDIR%/Images/1dc908eb-37b4-4134-9ae2-60a689f3336c.jpg"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 800.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 600.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: FillMode
-      Type: BaseDataVariableType
-      DataType: ImageFillModeEnum
-      ModellingRule: Optional
-      Value: 1
-    - Name: Visible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-      Children:
-      - Name: DynamicLink
-        Type: DynamicLink
-        DataType: NodePath
-        Value: "/Objects/Demonstration/Model/BackgroundEnable"
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 3
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 3
   - Name: Footer
     Type: RowLayout
     Children:
@@ -943,7 +895,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/PLC.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Network.png"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -966,7 +918,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -18.0
+          Value: -8.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -992,13 +944,18 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 60.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 52.0
       - Name: Graphic_outline
         Type: Image
         Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/PLC.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Network.png"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -1034,7 +991,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -18.0
+          Value: -8.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -1044,6 +1001,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 60.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 52.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -7622,7 +7584,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 55.0
     - Name: EnterAnimation
       Type: BaseDataVariableType
       DataType: PanelLoaderAnimationTypeEnum
@@ -7669,7 +7631,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 550.0
+      Value: 540.0
     - Name: DateAndTime1
       Type: DateTimePicker
       Children:
@@ -7696,7 +7658,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 9.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7770,7 +7732,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 9.0
       - Name: Path
         Type: BaseDataVariableType
         DataType: String
@@ -7812,7 +7774,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 9.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -7877,7 +7839,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 9.0
       - Name: Path
         Type: BaseDataVariableType
         DataType: String
@@ -7915,7 +7877,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 9.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
@@ -8024,7 +7986,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 15.0
+        Value: 19.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
@@ -8056,7 +8018,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 14.0
       - Name: Style
         Type: BaseDataVariableType
         DataType: String
@@ -8177,12 +8139,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 65.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 30.0
+        Value: 40.0
       - Name: Button1
         Type: Button
         Children:
@@ -8376,7 +8338,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 405.0
+        Value: 420.0
     - Name: UnitedKingdom1
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8385,12 +8347,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 65.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 30.0
+        Value: 40.0
       - Name: Button3
         Type: Button
         Children:
@@ -8595,7 +8557,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 5.0
+        Value: 10.0
       - Name: Path
         Type: BaseDataVariableType
         DataType: String
@@ -8610,69 +8572,12 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 465.0
+        Value: 497.0
       - Name: LineColor
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: Optional
         Value: "#6a6a6a"
-    - Name: Switch1
-      Type: Switch
-      Children:
-      - Name: Checked
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Demonstration/Model/BackgroundEnable"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 35.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 260.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 15.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 20.0
-      - Name: CheckedText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":""}
-      - Name: UncheckedText
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":""}
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 470.0
     - Name: CT_Logo
       Type: ScaleLayout
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
@@ -8745,20 +8650,22 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 10.0
       - Name: Width
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 235.0
+        Value: 255.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 59.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 1.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment

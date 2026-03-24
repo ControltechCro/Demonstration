@@ -1,0 +1,45 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: ForceOut
+  Id: g=9a60c3e161da14fa60e56143a972e627
+  Type: MicroControllerTag
+  DataType: UInt16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ForceOut"
+- Name: LiveBit
+  Type: MicroControllerTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "LiveBit"
+- Name: ReadFromSiemens
+  Type: MicroControllerTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ReadFromSiemens"
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/Data/WriteToAB"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: WriteToSiemens
+  Type: MicroControllerTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "WriteToSiemens"
