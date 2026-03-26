@@ -415,6 +415,51 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "/Objects/Demonstration@BrowseName"
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/1f952a8e-2491-4fe1-bea3-c68eaa37cb4a.jpg"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1280.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 780.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: FillMode
+      Type: BaseDataVariableType
+      DataType: ImageFillModeEnum
+      ModellingRule: Optional
+      Value: 1
+    - Name: DynamicColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#eb001b"
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
   - Name: Footer
     Type: RowLayout
     Children:
@@ -1057,7 +1102,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"Network"}
+          Value: {"NamespaceIndex":18,"TextId":"General"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2689,7 +2734,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Recipe.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -2746,7 +2791,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/RecipeOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Recipe.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -4373,7 +4418,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/SettingsOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Cloud.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -4430,7 +4475,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/SettingsOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Cloud.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -4532,7 +4577,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"Settings"}
+          Value: {"NamespaceIndex":18,"TextId":"Connection"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -6171,7 +6216,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/FlowChartOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Contextualize.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -6228,7 +6273,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/FlowChartOff.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Contextualize.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -7229,7 +7274,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"NamespaceIndex":18,"TextId":"Manual"}
+          Value: {"NamespaceIndex":18,"TextId":"Media"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -7631,85 +7676,6 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 545.0
-    - Name: DateAndTime1
-      Type: DateTimePicker
-      Children:
-      - Name: Value
-        Type: BaseDataVariableType
-        DataType: DateTime
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "/Objects/Demonstration/NetLogic/ClockLogic/Time"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 626.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 9.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 130.0
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 40.0
-      - Name: TextHorizontalAlignment
-        Type: BaseVariableType
-        DataType: TextHorizontalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: TextVerticalAlignment
-        Type: BaseVariableType
-        DataType: TextVerticalAlignment
-        ModellingRule: Optional
-        Value: 1
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-      - Name: Opacity
-        Type: BaseVariableType
-        DataType: Float
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: TextColor
-        Type: BaseDataVariableType
-        DataType: Color
-        ModellingRule: Optional
-        Value: "#075982"
     - Name: PolyLine1
       Type: PolyLine
       Children:
@@ -8592,78 +8558,66 @@ Children:
         DataType: Color
         ModellingRule: Optional
         Value: "#0fafff"
-    - Name: CT_Logo
-      Type: ScaleLayout
-      WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    - Name: EditableLabel1
+      Type: EditableLabel
       Children:
-      - Name: FillColor
+      - Name: Text
         Type: BaseDataVariableType
-        DataType: Color
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-      - Name: Graphic_fill
-        Type: Image
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"DateAndTime "}
         Children:
-        - Name: Path
-          Type: BaseDataVariableType
-          DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/Images/Logo.png"
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-        - Name: ColorizationMode
-          Type: BaseDataVariableType
-          DataType: ColorizationModeEnum
-          ModellingRule: Optional
-        - Name: HitTestVisible
-          Type: BaseDataVariableType
-          DataType: Boolean
-          ModellingRule: Optional
-        - Name: DynamicColor
-          Type: BaseDataVariableType
-          DataType: Color
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 221.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 51.0
-        - Name: FillMode
-          Type: BaseDataVariableType
-          DataType: ImageFillModeEnum
-          ModellingRule: Optional
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/Demonstration/NetLogic/ClockLogic/Time"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
+        Value: 1120.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: Optional
+        Value: "#075982"
+      - Name: TextHorizontalAlignment
+        Type: BaseVariableType
+        DataType: TextHorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TextVerticalAlignment
+        Type: BaseVariableType
+        DataType: TextVerticalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 35.0
+    - Name: Image1
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=18;%PROJECTDIR%/res/Logo_SVG.svg"
       - Name: Width
         Type: BaseVariableType
         DataType: Size
@@ -8674,44 +8628,14 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 55.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-      - Name: HorizontalAlignment
-        Type: BaseVariableType
-        DataType: HorizontalAlignment
-        ModellingRule: Optional
-      - Name: VerticalAlignment
-        Type: BaseVariableType
-        DataType: VerticalAlignment
-        ModellingRule: Optional
-      - Name: RightMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-      - Name: FillMode
-        Type: BaseDataVariableType
-        DataType: FillModeEnum
-        ModellingRule: Optional
-      - Name: FontScaling
-        Type: BaseDataVariableType
-        DataType: Boolean
-        ModellingRule: Optional
-      - Name: OriginalHeight
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 50.0
-      - Name: OriginalWidth
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 220.0
   - Name: AlwaysOnTop
     Type: BaseDataVariableType
     DataType: Boolean

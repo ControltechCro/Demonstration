@@ -10,6 +10,18 @@ Children:
     Children:
     - Name: Default
       Type: ButtonStyle
+      Children:
+      - Name: FontFamily
+        Type: BaseDataVariableType
+        DataType: Font
+      - Name: Color
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#0fafff"
+      - Name: TextColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
     - Name: Accent
       Type: ButtonStyle
       Children:

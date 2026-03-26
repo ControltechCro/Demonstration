@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [162,3],
+    "Dimensions": [165,3],
     "Body": [
      "","en-US","hr-HR",
      "Reboot","Reboot","Reboot",
@@ -172,6 +172,9 @@ Children:
      "Syrup Weight","Syrup Weight","Količina Sirupa",
      "Sugar Weight","Sugar Weight","Količina Šećera",
      "Mixing Time","Mixing Time","Vrijeme Miješanja",
-     "Mixing Speed","Mixing Speed","Brzina Miješanja"
+     "Mixing Speed","Mixing Speed","Brzina Miješanja",
+     "General","General","Općenito",
+     "Media","Media","Mediji",
+     "Connection","Connection","Povezivanje"
     ]
    }
