@@ -8611,6 +8611,16 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 35.0
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 6.0
     - Name: Image1
       Type: Image
       Children:
