@@ -489,7 +489,6 @@ Children:
       - Name: FillColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#ffffff"
         Children:
         - Name: KeyValueConverter1
           Type: ValueMapConverter
@@ -940,7 +939,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/FT.svg"
+          Value: "ns=18;%PROJECTDIR%/res/FT_2.svg"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -963,7 +962,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -8.0
+          Value: -12.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -988,19 +987,19 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 40.0
+          Value: 49.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 38.0
+          Value: 32.0
       - Name: Graphic_outline
         Type: Image
         Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/FT.svg"
+          Value: "ns=18;%PROJECTDIR%/res/FT_2.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -1036,7 +1035,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -8.0
+          Value: -12.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -1045,12 +1044,16 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 40.0
+          Value: 49.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 38.0
+          Value: 32.0
+        - Name: ImageLeftMargin
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -1886,6 +1889,16 @@ Children:
           Type: BaseDataVariableType
           DataType: ColorizationModeEnum
           ModellingRule: Optional
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 49.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 32.0
       - Name: Graphic_outline
         Type: Image
         Children:
@@ -1942,7 +1955,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 38.0
+          Value: 32.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -2784,7 +2797,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 38.0
+          Value: 32.0
       - Name: Graphic_outline
         Type: Image
         Children:
@@ -2827,7 +2840,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: -18.0
+          Value: -20.0
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
@@ -2841,7 +2854,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 38.0
+          Value: 32.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -3054,6 +3067,120 @@ Children:
           Type: BaseDataVariableType
           DataType: FontWeightEnum
           Value: 400
+          Children:
+          - Name: KeyValueConverter1
+            Type: ValueMapConverter
+            Children:
+            - Name: Source
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "/Objects/Demonstration/Model/ScreenNo"
+            - Name: ns=3;Pairs
+              Type: BaseObjectType
+              Children:
+              - Name: Pair
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair1
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 1
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair2
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 2
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair3
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 3
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 800
+              - Name: Pair4
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 4
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair5
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 5
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair6
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 6
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair7
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 7
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair8
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 8
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
       - Name: OriginalHeight
         Type: BaseDataVariableType
         DataType: Size
@@ -3564,7 +3691,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 50.0
+          Value: 49.0
         - Name: Height
           Type: BaseVariableType
           DataType: Size
@@ -6216,7 +6343,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/Contextualize.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Report.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -6273,7 +6400,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/Contextualize.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Report.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color

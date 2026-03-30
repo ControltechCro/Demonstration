@@ -4821,7 +4821,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
+      Value: 80.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -4831,6 +4831,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
+      Value: 10.0
     - Name: DynamicColor
       Type: BaseDataVariableType
       DataType: Color
