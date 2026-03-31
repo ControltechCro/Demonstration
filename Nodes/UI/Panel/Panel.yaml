@@ -21702,64 +21702,6 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#ffffff"
-  - Name: Image1
-    Type: Image
-    Children:
-    - Name: Path
-      Type: BaseDataVariableType
-      DataType: ResourceUri
-      Value: "ns=18;%PROJECTDIR%/PLC.svg"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 70.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 35.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 284.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 2
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: FillMode
-      Type: BaseDataVariableType
-      DataType: ImageFillModeEnum
-      ModellingRule: Optional
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: -480.0
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-    - Name: DynamicColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#ffffff"
   - Name: Rectangle6
     Type: Rectangle
     Children:
@@ -22862,6 +22804,64 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 670.0
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: DynamicColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ffffff"
+  - Name: Image14
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/res/Micro.svg"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 68.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 288.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 2
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+    - Name: FillMode
+      Type: BaseDataVariableType
+      DataType: ImageFillModeEnum
+      ModellingRule: Optional
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: -480.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size

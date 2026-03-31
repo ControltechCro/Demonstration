@@ -10,11 +10,11 @@ Children:
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
-    Value: "127.0.0.1"
+    Value: "192.168.1.98"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 8081
+    Value: 1234
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -163,6 +163,9 @@ Children:
     ValueRank: OneDimension
     ArrayDimensions: [0]
     Value: ["*"]
+  - Name: Hostname
+    Type: BaseDataVariableType
+    DataType: String
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   Children:
@@ -3646,7 +3649,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/Alarm.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Alarm1.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -3703,7 +3706,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/res/Alarm.svg"
+          Value: "ns=18;%PROJECTDIR%/res/Alarm1.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
