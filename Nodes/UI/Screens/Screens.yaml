@@ -2,3 +2,4 @@ Name: Screens
 Type: ScreensCategoryFolder
 Children:
 - File: User/User.yaml
+- File: Keyboards/Keyboards.yaml
