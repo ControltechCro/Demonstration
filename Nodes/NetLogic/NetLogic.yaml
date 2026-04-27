@@ -136,3 +136,61 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
+- Name: EmailSenderLogic
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Class: Method
+    Name: SendEmail
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"mailToAddress","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailSubject","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"mailBody","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: SenderEmailAddress
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: SenderEmailPassword
+    Type: BaseDataVariableType
+    DataType: Password
+  - Name: SMTPHostname
+    Type: BaseDataVariableType
+    DataType: String
+  - Name: SMTPPort
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: EnableSSL
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: Attachment
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+  - Name: MaxRetriesOnFailure
+    Type: BaseDataVariableType
+    DataType: Int32
+  - Name: DelayBeforeRetry
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
+  - Name: EmailSendingStatus
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: ns=7;LibraryReference
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 7
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "bce2e18626fafec33b8147df15fe6d2a",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

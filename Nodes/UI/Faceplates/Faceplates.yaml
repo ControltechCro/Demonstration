@@ -1824,7 +1824,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 5.0
-  - Name: Button1
+  - Name: ButtonOpenPopup
     Type: Button
     Children:
     - Name: Text
@@ -1931,4 +1931,14 @@ Children:
   - Name: InvertColor
     Type: BaseDataVariableType
     DataType: Boolean
+  - Name: HorizontalAlignment
+    Type: BaseVariableType
+    DataType: HorizontalAlignment
+    ModellingRule: Optional
+    Value: 2
+  - Name: VerticalAlignment
+    Type: BaseVariableType
+    DataType: VerticalAlignment
+    ModellingRule: Optional
+    Value: 2
 - File: MotorFaceplate/MotorFaceplate.yaml
