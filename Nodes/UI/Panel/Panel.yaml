@@ -11306,6 +11306,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=b6ec77851334c054ade35cb80bc887fd
       Type: ScrollView
       Children:
       - Name: Width
@@ -12480,6 +12481,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
@@ -14613,6 +14617,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=3ff182f066776e331f4b95159e4e900e
       Type: ScrollView
       Children:
       - Name: Width
@@ -15787,6 +15792,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
@@ -17864,6 +17872,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=b6424aa133f5f0d37eddf9a8522f7981
       Type: ScrollView
       Children:
       - Name: Width
@@ -19038,6 +19047,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
