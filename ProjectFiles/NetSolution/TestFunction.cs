@@ -29,6 +29,8 @@ using FTOptix.UI;
 using FTOptix.Core;
 #endregion
 
+
+//KOMENTAR OD ŽELJKA KLEPIÆA//
 public class TestFunction : BaseNetLogic
 {
     public override void Start()
