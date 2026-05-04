@@ -211,3 +211,6 @@ Children:
 - Name: OptionButtonValue
   Type: BaseDataVariableType
   DataType: Int32
+- Name: TankValue
+  Type: BaseDataVariableType
+  DataType: Int32

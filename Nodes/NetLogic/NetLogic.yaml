@@ -273,6 +273,19 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
+  - Name: Variable1
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/Data/LvlData/Tank1"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
 - Name: TestFunction
   Type: NetLogic
   Children:
@@ -296,6 +309,22 @@ Children:
       Type: DynamicLink
       DataType: NodePath
       Value: "../../../Model/EmailTrigger"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: AccessTankData
+  Type: NetLogic
+  Children:
+  - Name: DisplayValue
+    Type: BaseDataVariableType
+    DataType: Int16
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../CommDrivers/S7TIAPROFINETDriver1/S7TIAPROFINETStation1/Tags/PLC/Data/LvlData/Tank1"
       Children:
       - Name: Mode
         Type: BaseVariableType
