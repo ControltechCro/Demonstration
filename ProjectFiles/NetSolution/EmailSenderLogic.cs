@@ -5,7 +5,6 @@ using FTOptix.Core;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using System.Collections.Generic;
-using FTOptix.AuditSigning;
 #endregion
 
 public class EmailSenderLogic : BaseNetLogic
@@ -89,38 +88,17 @@ public class EmailSenderLogic : BaseNetLogic
             sendTriggerVar.Value = false;
         }
     }
-    private readonly Dictionary<int, string> optionButtonLabels = new Dictionary<int, string>
-    {
-        { 0, "Preuzimanje" },
-        { 1, "Kuæna dostava" },
-        { 2, "Paketomat" }
-    };
-
     private string BuildDataStructureMessage()
     {
         string textField = textFieldVar?.Value != null ? textFieldVar.Value.ToString() : "(not set)";
         string spinBox = spinBoxVar?.Value != null ? spinBoxVar.Value.ToString() : "(not set)";
-        string optionButtonLabel = "(not set)";
-
-        if (optionButtonVar?.Value != null)
-        {
-            // Convert UAValue to int before checking the dictionary
-            if (optionButtonVar.Value.Value is int optionValue && optionButtonLabels.TryGetValue(optionValue, out string label))
-            {
-                optionButtonLabel = label;
-            }
-            else
-            {
-                optionButtonLabel = optionButtonVar.Value.ToString();
-            }
-        }
+        string optionButton = optionButtonVar?.Value != null ? optionButtonVar.Value.ToString() : "(not set)";
 
         return $"Podaci o narudžbi:\n" +
                $"- Ime proizvoda: {textField}\n" +
                $"- Kolièina: {spinBox}\n" +
-               $"- Vrsta dostave: {optionButtonLabel}";
+               $"- Vrsta dostave: {optionButton}";
     }
-
     [ExportMethod]
     public void SendDataStructureEmail()
     {
