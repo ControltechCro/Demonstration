@@ -83,6 +83,105 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+      - Name: ArrayUpdateMode
+        Type: BaseDataVariableType
+        DataType: TagArrayUpdateMode
+    - Name: LvlData
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "IdType": 0,
+          "Id": 0,
+          "Namespace": -1
+         },
+         "Body":    {}
+        }
+       }
+      Children:
+      - Name: Tank1
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank1"
+      - Name: Tank2
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank2"
+      - Name: Tank3
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank3"
+      - Name: Tank4
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank4"
+      - Name: Tank5
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank5"
+      - Name: Tank6
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank6"
+      - Name: Tank7
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank7"
+      - Name: Tank8
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank8"
+      - Name: Tank9
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank9"
+      - Name: Tank10
+        Type: S7TiaProfinetTag
+        DataType: UInt16
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PLC.Blocks.Data.LvlData.Tank10"
   - Name: Table
     Type: TagStructure
     DataType: Structure

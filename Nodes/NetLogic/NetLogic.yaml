@@ -196,3 +196,7 @@ Children:
      }
 - Name: TestFunction
   Type: NetLogic
+  Children:
+  - Name: InputTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean

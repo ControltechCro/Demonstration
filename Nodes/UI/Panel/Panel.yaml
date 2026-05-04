@@ -12480,6 +12480,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
@@ -15787,6 +15790,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
@@ -19038,6 +19044,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
@@ -21951,13 +21960,16 @@ Children:
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
-    ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
-    ModellingRule: Optional
     Value: 3
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../HorizontalAlignment"
   - Name: Rectangle5
     Type: Rectangle
     Children:
@@ -24838,6 +24850,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 209.0
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
   - Name: Pb_Force10
     Type: Button
     Children:

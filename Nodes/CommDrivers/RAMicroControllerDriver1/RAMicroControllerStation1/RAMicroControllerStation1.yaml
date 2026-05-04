@@ -16,7 +16,7 @@ Children:
 - Name: Timeout
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:01:00.0000000"
+  Value: "0:00:00:01.0000000"
 - Name: MaxRetries
   Type: BaseDataVariableType
   DataType: Int32
@@ -24,7 +24,7 @@ Children:
 - Name: ConnectionTimeout
   Type: BaseDataVariableType
   DataType: Duration
-  Value: "0:00:00:03.0000000"
+  Value: "0:00:00:05.0000000"
 - Name: ACKTimeout
   Type: BaseDataVariableType
   DataType: Duration
