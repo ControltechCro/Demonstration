@@ -24,6 +24,7 @@ using FTOptix.DataLogger;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
 using FTOptix.MicroController;
+using FTOptix.AuditSigning;
 #endregion
 
 public class DateAndTimeWidgetLogic : BaseNetLogic

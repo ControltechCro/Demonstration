@@ -30,12 +30,22 @@ using FTOptix.Core;
 using FTOptix.AuditSigning;
 #endregion
 
-//Komentar by Andro Veiæ
-public class TestFunction : BaseNetLogic
+public class StartEmailFunction : BaseNetLogic
 {
     public override void Start()
     {
-        // Insert code to be executed when the user-defined logic is started
+        //// Find the EmailSenderLogic object in the project
+        //var emailSenderLogic = Project.Current.GetObject("NetLogic/EmailSenderLogic") as UAObject;
+        //if (emailSenderLogic != null)
+        //{
+        //    // Call the SendEmail method
+        //    object[] inputArgs = { "andro.veic2@gmail.com", "App started", "App started" };
+        //    emailSenderLogic.ExecuteMethod("SendEmail", inputArgs);
+        //}
+        //else
+        //{
+        //    Log.Error("StartEmailFunction", "EmailSenderLogic object not found.");
+        //}
     }
 
     public override void Stop()

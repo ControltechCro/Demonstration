@@ -5,16 +5,55 @@ using FTOptix.Core;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using System.Collections.Generic;
+using FTOptix.AuditSigning;
 #endregion
 
 public class EmailSenderLogic : BaseNetLogic
 {
+    private IUAVariable sendTriggerVar;
+    private IUAVariable recipientEmailVar;
+    private IUAVariable createEmailMessage;
+    private IUAVariable textFieldVar;
+    private IUAVariable spinBoxVar;
+    private IUAVariable optionButtonVar;
+
     public override void Start()
     {
         ValidateCertificate();
         emailStatus = GetVariableValue("EmailSendingStatus");
         maxDelay = GetVariableValue("DelayBeforeRetry");
         maxDelay.VariableChange += RestartPeriodicTask;
+
+        // Trigger monitoring logic
+        sendTriggerVar = LogicObject.GetVariable("SendTrigger");
+        recipientEmailVar = LogicObject.GetVariable("RecipientEmail");
+        createEmailMessage = LogicObject.GetVariable("EmailMessage");
+
+        if (sendTriggerVar != null)
+        {
+            sendTriggerVar.VariableChange += OnSendTriggerChanged;
+        }
+        else
+        {
+            Log.Error("EmailSenderLogic", "SendTrigger variable not found.");
+        }
+
+        if (recipientEmailVar == null)
+        {
+            Log.Error("EmailSenderLogic", "RecipientEmail variable not found.");
+        }
+
+        textFieldVar = LogicObject.GetVariable("TextFieldValue");
+        spinBoxVar = LogicObject.GetVariable("SpinBoxValue");
+        optionButtonVar = LogicObject.GetVariable("OptionButtonValue");
+
+        if (textFieldVar == null)
+            Log.Error("EmailSenderLogic", "TextFieldValue variable not found.");
+        if (spinBoxVar == null)
+            Log.Error("EmailSenderLogic", "SpinBoxValue variable not found.");
+        if (optionButtonVar == null)
+            Log.Error("EmailSenderLogic", "OptionButtonValue variable not found.");
+
     }
 
     /// <summary>
@@ -27,6 +66,85 @@ public class EmailSenderLogic : BaseNetLogic
     /// <remarks>
     /// The method ensures that the email sending logic continues to function correctly by managing the periodic task's execution based on the specified delay before retrying.
     /// </remarks>
+
+    private void OnSendTriggerChanged(object sender, VariableChangeEventArgs e)
+    {
+        // Only send email when SendTrigger is set to true
+        if (e.NewValue != null && e.NewValue.Value is bool triggered && triggered)
+        {
+            if (recipientEmailVar == null || recipientEmailVar.Value == null)
+            {
+                Log.Error("EmailSenderLogic", "RecipientEmail variable is not set.");
+                sendTriggerVar.Value = false;
+                return;
+            }
+
+            string recipient = recipientEmailVar.Value.ToString();
+            string message = (string)createEmailMessage.Value;
+                
+            // Call the internal SendEmail method
+            SendEmail(recipient, "Button Pressed", message);
+
+            // Optionally reset the trigger
+            sendTriggerVar.Value = false;
+        }
+    }
+    private readonly Dictionary<int, string> optionButtonLabels = new Dictionary<int, string>
+    {
+        { 0, "Preuzimanje" },
+        { 1, "Kuæna dostava" },
+        { 2, "Paketomat" }
+    };
+
+    private string BuildDataStructureMessage()
+    {
+        string textField = textFieldVar?.Value != null ? textFieldVar.Value.ToString() : "(not set)";
+        string spinBox = spinBoxVar?.Value != null ? spinBoxVar.Value.ToString() : "(not set)";
+        string optionButtonLabel = "(not set)";
+
+        if (optionButtonVar?.Value != null)
+        {
+            // Convert UAValue to int before checking the dictionary
+            if (optionButtonVar.Value.Value is int optionValue && optionButtonLabels.TryGetValue(optionValue, out string label))
+            {
+                optionButtonLabel = label;
+            }
+            else
+            {
+                optionButtonLabel = optionButtonVar.Value.ToString();
+            }
+        }
+
+        return $"Podaci o narudžbi:\n" +
+               $"- Ime proizvoda: {textField}\n" +
+               $"- Kolièina: {spinBox}\n" +
+               $"- Vrsta dostave: {optionButtonLabel}";
+    }
+
+    [ExportMethod]
+    public void SendDataStructureEmail()
+    {
+        if (recipientEmailVar == null || recipientEmailVar.Value == null)
+        {
+            Log.Error("EmailSenderLogic", "RecipientEmail variable is not set.");
+            return;
+        }
+
+        string recipient = recipientEmailVar.Value.ToString();
+        string subject = "Data Structure Submission";
+        string body = BuildDataStructureMessage();
+
+        SendEmail(recipient, subject, body);
+    }
+
+    public override void Stop()
+    {
+        if (maxDelay != null)
+            maxDelay.VariableChange -= RestartPeriodicTask;
+        if (sendTriggerVar != null)
+            sendTriggerVar.VariableChange -= OnSendTriggerChanged;
+    }
+
     private void RestartPeriodicTask(object sender, VariableChangeEventArgs e)
     {
         if (e.NewValue < 10000 || e.NewValue == null)

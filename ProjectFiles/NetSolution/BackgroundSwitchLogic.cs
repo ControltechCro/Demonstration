@@ -1,6 +1,7 @@
 ﻿#region Using directives
 using FTOptix.NetLogic;
 using UAManagedCore;
+using FTOptix.AuditSigning;
 #endregion
 
 public class BackgroundSwitchLogic : BaseNetLogic

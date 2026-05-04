@@ -29,6 +29,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
 using FTOptix.MicroController;
+using FTOptix.AuditSigning;
 #endregion
 
 public class DigitalInputMux : BaseNetLogic

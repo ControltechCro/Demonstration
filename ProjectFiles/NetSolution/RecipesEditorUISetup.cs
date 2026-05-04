@@ -13,6 +13,7 @@ using UAManagedCore;
 using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
 using FTOptix.MicroController;
+using FTOptix.AuditSigning;
 using OpcUa = UAManagedCore.OpcUa;
 #endregion
 

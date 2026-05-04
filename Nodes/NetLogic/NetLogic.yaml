@@ -137,6 +137,7 @@ Children:
         DataType: DynamicLinkMode
         Value: 2
 - Name: EmailSenderLogic
+  Id: g=678f3148cb75ad3f583f71f9c565b173
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
@@ -153,18 +154,23 @@ Children:
   - Name: SenderEmailAddress
     Type: BaseDataVariableType
     DataType: String
+    Value: "andro.veic2@gmail.com"
   - Name: SenderEmailPassword
     Type: BaseDataVariableType
     DataType: Password
+    Value: "xnrz jmfl lzxc mvnt"
   - Name: SMTPHostname
     Type: BaseDataVariableType
     DataType: String
+    Value: "smtp.gmail.com"
   - Name: SMTPPort
     Type: BaseDataVariableType
     DataType: Int32
+    Value: 587
   - Name: EnableSSL
     Type: BaseDataVariableType
     DataType: Boolean
+    Value: true
   - Name: Attachment
     Type: BaseDataVariableType
     DataType: ResourceUri
@@ -194,5 +200,100 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+  - Name: SendTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/EmailTrigger"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: RecipientEmail
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "andro.veic2@gmail.com"
+  - Name: EmailMessage
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/EmailMessage"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Class: Method
+    Name: SendDataStructureEmail
+  - Name: TextFieldValue
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/TextFieldValue"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: SpinBoxValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/SpinBoxValue"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: OptionButtonValue
+    Type: BaseDataVariableType
+    DataType: Int32
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/OptionButtonValue"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
 - Name: TestFunction
   Type: NetLogic
+- Name: StartEmailFunction
+  Type: NetLogic
+- Name: SendEmailButtonLogic
+  Type: NetLogic
+  Children:
+  - Name: RecipientEmail
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "andro.veic2@gmail.com"
+  - Name: SendTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/EmailTrigger"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
