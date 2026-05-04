@@ -138,3 +138,13 @@ Children:
     Type: BaseDataVariableType
     DataType: LocalizedText
     Value: {"NamespaceIndex":18,"TextId":"Greška 01"}
+- File: Folder1/Folder1.yaml
+- Name: NodePointer1
+  Id: g=77fe02c1d85d95021b76e1caf8892741
+  Type: NodePointer
+  DataType: NodeId
+  Children:
+  - Name: Kind
+    Id: g=dd62ad76c3dd41e4558ffc46e049b50e
+    Type: PropertyType
+    DataType: NodeId

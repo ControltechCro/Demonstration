@@ -275,6 +275,10 @@ Children:
         Value: 2
 - Name: TestFunction
   Type: NetLogic
+  Children:
+  - Name: InputTrigger
+    Type: BaseDataVariableType
+    DataType: Boolean
 - Name: StartEmailFunction
   Type: NetLogic
 - Name: SendEmailButtonLogic

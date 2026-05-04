@@ -11535,6 +11535,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=87c88ba469abb4842aed915e07d147fb
       Type: ScrollView
       Children:
       - Name: Width
@@ -14845,6 +14846,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=409be61b2da67f53385f4924e8bfd3dc
       Type: ScrollView
       Children:
       - Name: Width
@@ -18099,6 +18101,7 @@ Children:
         ModellingRule: Optional
         Value: "#0fafff"
     - Name: ScrollView
+      Id: g=8dbeaeb1a16be7f27bba0f7fa01c3887
       Type: ScrollView
       Children:
       - Name: Width
@@ -22189,13 +22192,16 @@ Children:
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
-    ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
     Type: BaseVariableType
     DataType: VerticalAlignment
-    ModellingRule: Optional
     Value: 3
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../HorizontalAlignment"
   - Name: Rectangle5
     Type: Rectangle
     Children:
@@ -25076,6 +25082,11 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 209.0
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
   - Name: Pb_Force10
     Type: Button
     Children:

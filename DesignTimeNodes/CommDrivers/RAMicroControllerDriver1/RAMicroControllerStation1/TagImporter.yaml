@@ -15,4 +15,3 @@ Children:
 - Name: Mode
   Type: BaseDataVariableType
   DataType: ns=23;FetchModes
-  Value: 1
