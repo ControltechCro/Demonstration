@@ -8,7 +8,7 @@ Children:
   - Name: Server
     Type: BaseDataVariableType
     DataType: String
-    Value: "192.168.1.124"
+    Value: "192.168.1.220"
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
@@ -58,27 +58,14 @@ Children:
       - Name: Columns
         Type: BaseObjectType
         Children:
-        - Name: Timestamp
+        - Name: BoxesProduced
           Type: StoreColumn
-          DataType: UtcTime
+          DataType: BaseDataType
           Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../NetLogic/ClockLogic/UTCTime"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              Value: 2
-        - Name: LocalTimestamp
-          Type: StoreColumn
-          DataType: DateTime
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../../../../../NetLogic/ClockLogic/Time"
+            Value: "../../../../../../Model/Influx/InfluxDemoVar"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -97,23 +84,170 @@ Children:
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
-        - Name: BoxesProduced
+        - Name: LocalTimestamp
           Type: StoreColumn
-          DataType: BaseDataType
+          DataType: DateTime
           Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "../../../../../../Model/Influx/InfluxDemoVar"
+            Value: "../../../../../../NetLogic/ClockLogic/Time"
             Children:
             - Name: Mode
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../NetLogic/ClockLogic/UTCTime"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber1
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber1"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber2
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber2"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber3
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber3"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber6
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber6"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber7
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber7"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber8
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber8"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber9
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber9"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: RandNumber10
+          Type: StoreColumn
+          DataType: Int32
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../CommDrivers/RAMicroControllerDriver1/RAMicroControllerStation1/Tags/RandNumber10"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: VariableToSample1
+          Type: StoreColumn
+          DataType: BaseDataType
+        - Name: RandNumber2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber6
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber7
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber8
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber9
+          Type: StoreColumn
+          DataType: Int32
+        - Name: RandNumber10
+          Type: StoreColumn
+          DataType: Int32
   - Name: Token
     Type: BaseDataVariableType
     DataType: Password
-    Value: "jvKBV3nle684Td3nf2axxNBJ03fMtSl_DyeBsxjUvSbsjZPFjss4LFp_4msi_cZho2xuCVI2clqTOmxX_M8d-A=="
+    Value: "LhlpTQjMsU5a4RjrABpGiA9uxMErdLj-zSPIzjx8qgErY82Ncn2Zib70dAD8zAVB32UWjttiEDME-QWVexKoNg=="
   - Name: Organization
     Type: BaseDataVariableType
     DataType: String

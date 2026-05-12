@@ -7,6 +7,7 @@ Children:
   - Name: Protocol
     Type: BaseDataVariableType
     DataType: Protocol
+    Value: 1
   - Name: IPAddress
     Type: BaseDataVariableType
     DataType: String
@@ -14,7 +15,7 @@ Children:
   - Name: Port
     Type: BaseDataVariableType
     DataType: UInt16
-    Value: 1234
+    Value: 50001
   - Name: StartWindow
     Type: NodePointer
     DataType: NodeId
@@ -166,6 +167,17 @@ Children:
   - Name: Hostname
     Type: BaseDataVariableType
     DataType: String
+  - Name: Certificate
+    Type: PropertyGroup
+    Children:
+    - Name: CertificateFile
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/PKI/Own/Certs/server-cert.der"
+    - Name: PrivateKeyFile
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=18;%PROJECTDIR%/PKI/Own/Certs/server-key.pem"
 - Name: NativePresentationEngine
   Type: NativePresentationEngine
   Children:
@@ -296,6 +308,15 @@ Children:
   - Name: TextRenderType
     Type: BaseDataVariableType
     DataType: TextRenderTypeEnum
+  - Name: LoginWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Demonstration/UI/MainWindow"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Window"
 - Name: CustomUISession
   Id: g=6ea178ec475f216904d6b8ad82ab3fa8
   Supertype: UISession

@@ -194,7 +194,6 @@ Children:
         Type: PropertyType
         DataType: UInt16
 - Name: EmailTrigger
-  Id: g=39ece7c7ed56a8c7dc999e6de81dfa95
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: EmailMessage

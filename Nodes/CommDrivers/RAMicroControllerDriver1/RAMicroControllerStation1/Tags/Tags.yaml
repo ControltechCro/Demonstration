@@ -18,6 +18,86 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "LiveBit"
+- Name: RandNumber1
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber1"
+- Name: RandNumber10
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber10"
+- Name: RandNumber2
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber2"
+- Name: RandNumber3
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber3"
+- Name: RandNumber4
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber4"
+- Name: RandNumber5
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber5"
+- Name: RandNumber6
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber6"
+- Name: RandNumber7
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber7"
+- Name: RandNumber8
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber8"
+- Name: RandNumber9
+  Type: MicroControllerTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RandNumber9"
 - Name: ReadFromSiemens
   Type: MicroControllerTag
   DataType: Int16
