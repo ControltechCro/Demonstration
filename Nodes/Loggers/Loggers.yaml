@@ -7,7 +7,7 @@ Children:
   - Name: SamplingMode
     Type: PropertyType
     DataType: ns=41;SamplingModeEnum
-    Value: 2
+    Value: 1
   - Name: Store
     Type: NodePointer
     DataType: NodeId
@@ -330,4 +330,8 @@ Children:
   - Name: PollingPeriod
     Type: PropertyType
     DataType: Duration
-    Value: "0:00:00:00.1000000"
+    Value: "0:00:00:10.0000000"
+  - Name: SamplingPeriod
+    Type: PropertyType
+    DataType: Duration
+    Value: "0:00:00:10.0000000"
