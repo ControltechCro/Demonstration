@@ -229,7 +229,11 @@ Children:
       - Name: BorderThickness
         Type: BaseDataVariableType
         DataType: Size
-        Value: 1.0
+        Value: 5.0
+      - Name: CornerRadius
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 20.0
   - Name: ScreenStyles
     Type: BaseObjectType
     Children:

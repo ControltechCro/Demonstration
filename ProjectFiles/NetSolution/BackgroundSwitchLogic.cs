@@ -2,6 +2,7 @@
 using FTOptix.NetLogic;
 using UAManagedCore;
 using FTOptix.AuditSigning;
+using FTOptix.Modbus;
 #endregion
 
 public class BackgroundSwitchLogic : BaseNetLogic

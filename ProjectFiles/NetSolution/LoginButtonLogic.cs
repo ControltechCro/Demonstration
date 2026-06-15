@@ -21,6 +21,7 @@ using FTOptix.MQTTClient;
 using FTOptix.MQTTBroker;
 using FTOptix.MicroController;
 using FTOptix.AuditSigning;
+using FTOptix.Modbus;
 #endregion
 
 public class LoginButtonLogic : BaseNetLogic

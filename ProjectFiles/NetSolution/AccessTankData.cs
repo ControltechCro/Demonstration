@@ -1,6 +1,7 @@
 using FTOptix.HMIProject;
 using FTOptix.NetLogic;
 using UAManagedCore;
+using FTOptix.Modbus;
 
 public class AccessTankData : BaseNetLogic
 {

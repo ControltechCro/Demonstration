@@ -5,6 +5,7 @@ using FTOptix.Core;
 using UAManagedCore;
 using FTOptix.NetLogic;
 using System.Collections.Generic;
+using FTOptix.Modbus;
 #endregion
 
 public class EmailSenderLogic : BaseNetLogic

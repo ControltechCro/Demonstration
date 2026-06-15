@@ -28,6 +28,7 @@ using FTOptix.SerialPort;
 using FTOptix.UI;
 using FTOptix.Core;
 using FTOptix.AuditSigning;
+using FTOptix.Modbus;
 #endregion
 
 //Komentar by Andro Veiæ

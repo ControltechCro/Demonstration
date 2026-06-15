@@ -1251,6 +1251,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -1481,6 +1503,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -1819,6 +1863,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -2061,6 +2127,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt16
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
@@ -2346,6 +2423,20 @@ Children:
                   DataType: Int32
                   ModellingRule: None
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  ModellingRule: None
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                ModellingRule: None
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  ModellingRule: None
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -3074,6 +3165,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -3335,6 +3448,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -3669,6 +3804,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -3915,6 +4072,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -4139,6 +4307,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -4863,6 +5042,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -5124,6 +5325,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -5458,6 +5681,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -5704,6 +5949,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -5928,6 +6184,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -6652,6 +6919,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -6913,6 +7202,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -7247,6 +7558,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -7493,6 +7826,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -7717,6 +8061,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -8441,6 +8796,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -8702,6 +9079,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -9036,6 +9435,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -9282,6 +9703,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -9506,6 +9938,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -10230,6 +10673,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -10491,6 +10956,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -10825,6 +11312,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -11071,6 +11580,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -11295,6 +11815,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -12019,6 +12550,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -12280,6 +12833,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: UInt32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
@@ -12614,6 +13189,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -12860,6 +13457,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -13084,6 +13692,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Int32
                   Value: 18
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
@@ -13808,6 +14427,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#5ee4e4"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -14073,6 +14714,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#5ee4e4"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: ColorizationMode
           Type: BaseDataVariableType
           DataType: ColorizationModeEnum
@@ -14403,6 +15066,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#5ee4e4"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#000000"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#ffffff"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -14649,6 +15334,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 800
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 400
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -14877,6 +15573,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: 20.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 10.0
       - Name: OriginalHeight
         Type: BaseDataVariableType
         DataType: Size
@@ -15313,7 +16020,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: UInt16
-                          Value: 5
+                          Value: 9
                       - Name: Pair1
                         Type: ValueMapPair
                         Children:
@@ -15324,7 +16031,7 @@ Children:
                         - Name: Value
                           Type: BaseDataVariableType
                           DataType: UInt16
-                          Value: 15
+                          Value: 19
                 - Name: ArrayIndex
                   Type: BaseDataVariableType
                   DataType: UInt32
@@ -15402,7 +16109,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/CTmaliTP.png"
+          Value: "ns=18;%PROJECTDIR%/res/Eco.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -15487,7 +16194,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#075982"
+                  Value: "#000000"
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -15586,7 +16293,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#5ee4e4"
+                  Value: "#ffffff"
               - Name: Pair15
                 Type: ValueMapPair
                 Children:
@@ -15620,6 +16327,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#075982"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#5ee4e4"
         - Name: HorizontalAlignment
           Type: BaseVariableType
           DataType: HorizontalAlignment
@@ -15667,7 +16396,7 @@ Children:
         - Name: Path
           Type: BaseDataVariableType
           DataType: ResourceUri
-          Value: "ns=18;%PROJECTDIR%/Images/Logo.png"
+          Value: "ns=18;%PROJECTDIR%/res/Eco.svg"
         - Name: DynamicColor
           Type: BaseDataVariableType
           DataType: Color
@@ -15752,7 +16481,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#075982"
+                  Value: "#000000"
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -15851,7 +16580,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#5ee4e4"
+                  Value: "#ffffff"
               - Name: Pair15
                 Type: ValueMapPair
                 Children:
@@ -15885,6 +16614,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#075982"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#5ee4e4"
         - Name: ColorizationMode
           Type: BaseDataVariableType
           DataType: ColorizationModeEnum
@@ -15977,7 +16728,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Structure"}
+          Value: {"LocaleId":"en-US","Text":"Measure"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -16082,7 +16833,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#075982"
+                  Value: "#000000"
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -16181,7 +16932,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Color
-                  Value: "#5ee4e4"
+                  Value: "#ffffff"
               - Name: Pair15
                 Type: ValueMapPair
                 Children:
@@ -16215,6 +16966,28 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Color
                   Value: "#ffffff"
+              - Name: Pair18
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 9
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#075982"
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Color
+                  Value: "#5ee4e4"
         - Name: RightMargin
           Type: BaseVariableType
           DataType: Size
@@ -16317,7 +17090,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
-                  Value: 800
+                  Value: 400
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -16361,7 +17134,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
-                  Value: 400
+                  Value: 800
               - Name: Pair10
                 Type: ValueMapPair
                 Children:
@@ -16427,7 +17200,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
-                  Value: 800
+                  Value: 400
               - Name: Pair16
                 Type: ValueMapPair
                 Children:
@@ -16461,6 +17234,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: FontWeightEnum
                   Value: 400
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: UInt16
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: FontWeightEnum
+                  Value: 800
         - Name: FontSize
           Type: BaseDataVariableType
           DataType: Size
@@ -16545,7 +17329,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: 20.0
+                  Value: 10.0
               - Name: Pair6
                 Type: ValueMapPair
                 Children:
@@ -16589,7 +17373,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: 10.0
+                  Value: 20.0
               - Name: Pair10
                 Type: ValueMapPair
                 Children:
@@ -16655,7 +17439,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: Size
-                  Value: 20.0
+                  Value: 10.0
               - Name: Pair16
                 Type: ValueMapPair
                 Children:
@@ -16689,6 +17473,17 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: 10.0
+              - Name: Pair19
+                Type: ValueMapPair
+                Children:
+                - Name: Key
+                  Type: BaseDataVariableType
+                  DataType: Int32
+                  Value: 19
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: 20.0
       - Name: OriginalHeight
         Type: BaseDataVariableType
         DataType: Size

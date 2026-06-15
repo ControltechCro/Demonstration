@@ -3,6 +3,7 @@ using FTOptix.NetLogic;
 using FTOptix.Core;
 using FTOptix.HMIProject;
 using FTOptix.AuditSigning;
+using FTOptix.Modbus;
 
 public class SendEmailButtonLogic : BaseNetLogic
 {

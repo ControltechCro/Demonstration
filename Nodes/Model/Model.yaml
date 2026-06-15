@@ -213,3 +213,33 @@ Children:
 - Name: TankValue
   Type: BaseDataVariableType
   DataType: Int32
+- Name: ETH_Config_Tmp
+  Type: BaseDataVariableType
+  DataType: UInt16
+  ValueRank: OneDimension
+  ArrayDimensions: [20]
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/ETH_Config"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Status_Tmp
+  Type: BaseDataVariableType
+  DataType: UInt16
+  ValueRank: OneDimension
+  ArrayDimensions: [7]
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/ModbusDriver1/ModbusStation1/Tags/Status"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
