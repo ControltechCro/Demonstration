@@ -43,7 +43,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
     - Name: Label1
       Type: Label
       Children:
@@ -313,6 +312,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
+      Value: "#f0f0f0"
   - Name: Rectangle3
     Type: Rectangle
     Children:
@@ -421,7 +421,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
+      Value: "#f0f0f0"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
@@ -538,7 +538,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
+      Value: "#f0f0f0"
     - Name: Button2
       Type: Button
       Children:
@@ -843,6 +843,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
+      Value: "#f0f0f0"
   - Name: Rectangle5
     Type: Rectangle
     Children:
@@ -870,7 +871,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#6a6a6a"
+      Value: "#f0f0f0"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
