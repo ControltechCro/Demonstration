@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [165,3],
+    "Dimensions": [166,3],
     "Body": [
      "","en-US","hr-HR",
      "Reboot","Reboot","Reboot",
@@ -175,6 +175,7 @@ Children:
      "Mixing Speed","Mixing Speed","Brzina Miješanja",
      "General","General","Općenito",
      "Media","Media","Mediji",
-     "Connection","Connection","Povezivanje"
+     "Connection","Connection","Povezivanje",
+     "Measure","Measure","Mjerenja"
     ]
    }

@@ -16728,7 +16728,7 @@ Children:
           Type: BaseDataVariableType
           DataType: LocalizedText
           ModellingRule: Optional
-          Value: {"LocaleId":"en-US","Text":"Measure"}
+          Value: {"NamespaceIndex":18,"TextId":"Measure"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
